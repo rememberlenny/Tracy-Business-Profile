@@ -1,0 +1,118 @@
+h3.subheader {
+  font-size: 2em;
+}
+
+h4.subheader {
+  font-family: "franklin-gothic-urw-comp";
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  .brand-bar-extension {
+    background: #262626 !important;
+    margin: 0 auto !important;
+  }
+  .brand-bar-extension #brandslider {
+    max-width: 1000px !important;
+  }
+  .brand-bar-extension .orbit-prev {
+    visibility: visible !important;
+    position: absolute;
+    top: 0% !important;
+    margin-top: 0px !important;
+    background-color: transparent !important;
+    width: 9999px !important;
+    margin-left: -9999px !important;
+  }
+
+  .brand-bar-extension .orbit-next {
+    visibility: visible !important;
+    position: absolute;
+    top: 0% !important;
+    margin-top: 0px !important;
+    background-color: transparent !important;
+    width: 9999px !important;
+    margin-right: -9999px !important;
+  }
+
+  .company-facts-extension #featrap .orbit-container {
+    height: 350px;
+  }
+  .company-facts-extension #featrap .orbit-slide-number {
+    display: none !important;
+  }
+  .company-facts-extension #featrap .orbit-prev {
+    visibility: hidden !important;
+  }
+  .company-facts-extension #featrap .orbit-next {
+    visibility: visible !important;
+    position: absolute;
+    top: 0% !important;
+    margin-top: 0px !important;
+    background-color: transparent !important;
+    width: 9999px !important;
+    margin-right: -9999px !important;
+  }
+
+  #featrap {
+    max-width: 19.58333em;
+  }
+
+  .case-studies-extension {
+    background: white;
+  }
+  .case-studies-extension li {
+    height: auto;
+    -webkit-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    -o-transition: all 0.9s;
+    -ms-transition: all 0.9s;
+    transition: all 0.9s;
+  }
+  .case-studies-extension li.active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    opacity: 1;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .case-studies-extension .case-row {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .case-studies-extension .case-row.active {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .case-studies-extension .orbit-container {
+    background: none !important;
+    text-align: left;
+    overflow: visible;
+  }
+
+  .case-studies-extension li {
+    -webkit-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    -o-transition: all 0.9s;
+    -ms-transition: all 0.9s;
+    transition: all 0.9s;
+  }
+  .case-studies-extension li.active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    opacity: 1;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .case-studies-extension .orbit-container {
+    background: none !important;
+    text-align: left;
+    overflow: visible;
+  }
+}

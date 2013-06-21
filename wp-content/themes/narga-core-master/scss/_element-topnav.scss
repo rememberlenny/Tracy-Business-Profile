@@ -1,0 +1,27 @@
+
+
+@media only screen and (min-width: 58.75em) {
+  .contain-to-grid{
+    padding-top:    1.75em;
+    padding-bottom: 1.25em;
+    z-index: 1;
+  }
+  .top-bar-section li a:not(.button),
+  .contain-to-grid,
+  .top-bar,
+  .top-bar-section ul,
+  .top-bar-section li a:not(.button):hover,
+  .top-bar-section ul li.active>a {
+    background: white !important;
+  }
+  .divider{
+    display: none;
+  }
+  .top-bar-section ul li>a {
+    font-size: 1.325em;
+    font-weight: normal;
+  }
+  .top-bar-section li a:not(.button) {
+    padding: 0 25px !important;
+  }
+}

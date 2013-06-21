@@ -1,0 +1,14 @@
+h3.subheader {
+  font-size: 2em;
+}
+
+h4.subheader {
+  font-family: "franklin-gothic-urw-comp";
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 58.75em) {
+  .top-bar-section li a:not(.button) {
+    padding: 0 20px;
+  }
+}

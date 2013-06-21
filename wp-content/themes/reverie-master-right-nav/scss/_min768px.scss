@@ -1,0 +1,127 @@
+@import "variables";
+@media only screen and (min-width:768px) {
+  .home .masthead-photo-content{
+    margin-top:155px;
+  }
+  .home .widget-icon{ display:none !important;}
+     .brand-bar-extension{
+      background: #262626 !important;
+      margin: 0 auto !important;
+      #brandslider{
+        max-width: 1000px !important;
+      }
+      .orbit-prev{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        background-color: transparent!important;
+        width: 9999px!important;
+        margin-left: -9999px!important;
+      }
+     }
+     .case-studies-extension{
+    }
+     .brand-bar-extension{ 
+     .orbit-next{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        width: 9999px!important;
+        margin-right: -9999px!important;
+      }  
+    }
+    .company-facts-extension{
+      #featrap{
+      .orbit-container{
+        height: 350px;
+      }
+        .orbit-slide-number{
+          display: none !important;
+        }
+      .orbit-prev{ 
+        visibility: hidden !important;
+      }
+     .orbit-next{ 
+        visibility: visible !important;
+        position: absolute;
+        top: 0%!important;
+        margin-top: 0px!important;
+        background-color: transparent!important;
+        width: 9999px!important;
+        margin-right: -9999px!important;
+      } 
+    }
+  }
+    #featrap{
+      max-width: $max-right;
+    }
+    .case-studies-extension{
+        background: white;
+        li{
+          height: auto;
+            @include transition( all, .9s );
+        }
+        li.active{
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+        filter: alpha(opacity=60);
+        opacity: 1;
+        @include transition( all, .2s );
+        }
+        .case-row{
+          padding-left: 0em;
+          padding-right: 0em;
+          &.active{
+            padding-left: 0em;
+            padding-right: 0em;
+          }
+        }
+
+      .orbit-container{ 
+          background: none !important; 
+          text-align: left;
+          overflow:visible;
+      }
+
+    }  
+    .case-studies-extension{
+        li{
+            @include transition( all, .9s );
+        }
+        li.active{
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+        filter: alpha(opacity=60);
+        opacity: 1;
+        @include transition( all, .2s );
+        }
+      .orbit-container{ 
+          background: none !important; 
+          text-align: left;
+          overflow:visible;
+      }
+
+    }  
+   .masthead-photo-content{ 
+      h1 {
+        font-weight: 300;
+        font-size: 2.6em;
+        line-height: 1;
+      }
+      p{
+        font-size: 1.5em;
+      }  
+    }
+    .content-block{
+      .rgtcont.text-c, ul.text-c{
+        text-align:left !important;
+      }
+    }
+    .masthead-photo-content{
+      margin-top: 270px;
+    }
+      .masthead-photo-extension{ 
+      width: 100%; 
+    }
+    
+  }

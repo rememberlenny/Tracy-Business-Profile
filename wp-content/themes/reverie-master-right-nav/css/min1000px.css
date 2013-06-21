@@ -1,0 +1,79 @@
+h3.subheader {
+  font-size: 2em;
+}
+
+h4.subheader {
+  font-family: "franklin-gothic-urw-comp";
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+  .has-dropdown > a {
+    margin-right: 5px;
+  }
+
+  .masthead-photo-content {
+    padding: 0 1.875em 0;
+    margin-top: 230px;
+    padding-bottom: 12px;
+  }
+  .masthead-photo-content h1 {
+    font-weight: 300;
+    font-size: 2.2em;
+    line-height: 1;
+  }
+
+  .masthead-photo {
+    width: auto;
+    float: none;
+  }
+
+  .masthead-photo-extension .masthead-photo-content {
+    width: 1000px;
+    padding-left: 1.875em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .company-facts-extension {
+    width: 9999px !important;
+    background: #1A1A1A;
+    float: left;
+  }
+  .company-facts-extension .company-facts-content {
+    float: left;
+  }
+
+  .case-studies-extension {
+    width: 9999px !important;
+    background: white;
+    float: right;
+  }
+  .case-studies-extension #case-sliders {
+    float: right;
+    width: 667px;
+  }
+
+  .page-main-extension {
+    background: #FAF8F6;
+    width: 9999px !important;
+    float: right;
+  }
+  .page-main-extension .page-main-content {
+    float: right;
+    width: 667px;
+  }
+
+  .company-facts-extension #featrap {
+    float: right;
+    width: 667px;
+  }
+  .company-facts-extension .orbit-container {
+    background: transparent !important;
+    overflow: visible;
+  }
+
+  .products-link-content {
+    max-width: 333px;
+  }
+}

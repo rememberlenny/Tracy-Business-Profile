@@ -1,0 +1,184 @@
+@import "variables";
+
+
+
+  //
+  // Top Bar
+  //
+
+    /* Background color for the top bar */
+    $topbar-bg: #fff;
+
+    /* Height and margin */
+    $topbar-height: 75px;
+    $topbar-margin-bottom: emCalc(30px);
+
+    /* Control Input height for top bar */
+
+    /* Set the link colors and styles for top-level nav */
+    $topbar-link-color: #222;
+
+    /* Style the top bar dropdown elements */
+    $topbar-dropdown-bg: #fff;
+    $topbar-dropdown-link-color: #222;
+    $topbar-dropdown-toggle-color: #222;
+
+    /* Top menu icon styles */
+    $topbar-menu-link-color: #222;
+    $topbar-menu-icon-color: #222;
+
+    nav.top-bar input{
+      top: 24px;
+    }
+    .top-bar-section .left > li.has-dropdown a:not(.button){
+    }
+    .top-bar-section ul li > a {
+      height: auto !important;
+    }
+    @media only screen and (min-width: 58.75em){
+      .top-bar-section .has-dropdown > a:after {
+        top: 37px !important;
+      }
+      .top-bar-section .dropdown li a {
+        color: #222222;
+        white-space: nowrap;
+        padding: 7px 25px;
+        background: white;
+      }
+    }
+    .top-bar-section .left > li a{
+
+
+      &:not(.button){
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -o-transition: all .2s;
+        -ms-transition: all .2s;
+        transition: all .2s;
+        color: #353230 !important;
+        &:hover {
+          -webkit-transition: all .2s;
+          -moz-transition: all .2s;
+          -o-transition: all .2s;
+          -ms-transition: all .2s;
+          transition: all .2s;
+          background: #efefef !important;
+        }
+      }
+    }
+    .top-bar div input {
+
+    }
+    #searchsubmit{
+
+    }
+
+    .top-bar{
+      #searchsubmit{
+        top: 24px;
+        padding-top: 0em;
+        @include transition( all, .2s);
+        &:hover{
+          color: darken(white,30%) !important;
+          @include transition( all, .2s);
+        }
+      }
+      margin-bottom: 0em !important;
+      li.name h1 {
+        line-height: 68px;
+        font-size: 1.7625em;
+      }
+      div { 
+        input{ line-height: 1em; }
+      }
+      a{
+        color: $secondary-color !important;
+        i{
+          -webkit-transition: color .2s;
+          -moz-transition: color .2s;
+          -o-transition: color .2s;
+          -ms-transition: color .2s;
+          transition: color .2s;
+          font-size: 1.7em;
+          &:hover{
+            color: lighten($secondary-color, 20%);
+            -webkit-transition: color .2s;
+            -moz-transition: color .2s;
+            -o-transition: color .2s;
+            -ms-transition: color .2s;
+            transition: color .2s;
+          }
+        }
+        &:hover{
+          background: none !important;
+        }
+      } 
+    }
+    @media only screen and (min-width 768px){
+      div section.top-bar-section li a:not(.button) {
+        padding: 0 12px;
+      }
+     section.top-bar-section li a:not(.button) {
+        padding: 0 20px;
+      }
+    section.top-bar-section ul li > a {
+      color: #333;
+      font-size: .9em;
+      font-weight: 600;
+    }
+    }
+    .top-bar-section ul.right li a:not(.button):hover {
+      background: none;
+    }
+
+
+
+    .top-nav-wrapper{
+      border-bottom: solid 1px #e6e6e6;
+    }
+
+ 
+
+
+    .logo{
+      padding-top: .7em;
+      width: 130px;
+      opacity: 1;
+      -webkit-transition: opacity .2s linear;
+      -moz-transition: opacity .2s linear;
+      -o-transition: opacity .2s linear;
+      -ms-transition: opacity .2s linear;
+      transition: opacity .2s linear;
+      &:hover{
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+        filter: alpha(opacity=80);
+        opacity: .7;
+        -webkit-transition: opacity .2s linear;
+        -moz-transition: opacity .2s linear;
+        -o-transition: opacity .2s linear;
+        -ms-transition: opacity .2s linear;
+        transition: opacity .2s linear;
+      }
+    }
+
+    .menu-icon span{
+      color: $secondary-color;
+    }
+    .top-bar li.toggle-topbar.menu-icon a span {
+      -webkit-box-shadow: 0 10px 0 1px $secondary-color, 0 16px 0 1px $secondary-color, 0 22px 0 1px $secondary-color;
+      box-shadow: 0 10px 0 1px $secondary-color, 0 16px 0 1px $secondary-color, 0 22px 0 1px $secondary-color;
+    }
+  @media only screen and (min-width: 767px) {
+    .search-box{
+      input{
+        width: 100%;
+        float: right;
+        border-radius: 3px;
+      }
+    }
+  }
+.top-bar-section {
+  ul.right{
+    max-width: 220px !important;
+  }
+}

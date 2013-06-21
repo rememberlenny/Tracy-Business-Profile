@@ -1,0 +1,17 @@
+//
+// Advanced Layout
+//
+  @mixin transition( $target, $time ) {           
+    -webkit-transition:  $target $time;
+    -moz-transition:  $target $time;
+    -o-transition:  $target $time;
+    -ms-transition:  $target $time;
+    transition:  $target $time;
+  }
+  @mixin delaytransition( $time ){
+      transition-delay: $time;
+      -moz-transition-delay: $time; /* Firefox 4 */
+      -webkit-transition-delay: $time; /* Safari and Chrome */
+      -o-transition-delay: $time; /* Opera */
+  }
+
