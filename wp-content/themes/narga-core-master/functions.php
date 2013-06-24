@@ -407,4 +407,6 @@ add_action('admin_menu', 'narga_add_theme_menu');
 function narga_add_theme_menu() {
     add_theme_page('NARGA Customizer', 'NARGA', 'edit_theme_options', '../wp-admin/customize.php', '');
 }
+
+
 ?>

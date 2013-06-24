@@ -1,0 +1,16 @@
+@import "base-color";
+
+.brand-primary-bg{
+  background: lighten($brand-primary-color, 20%) !important;
+  background: rgba(255, 102, 102, .7) !important;
+}
+.brand-secondary-bg{
+  background: lighten($brand-secondary-color, 20%) !important;
+  background: rgba(102, 102, 255, .7) !important;
+}
+.brand-primary-bg{
+  background: $brand-primary-color;
+}
+.brand-secondary-bg{
+  background: $brand-secondary-color;
+}

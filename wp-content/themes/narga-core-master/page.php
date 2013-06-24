@@ -13,7 +13,7 @@
 ?>
 <?php get_header(); ?>
 <!-- Row for main content area -->
-<div id="page-content-wrapper" class="large-8 columns" role="content">
+<div id="page-content-wrapper" class="large-12 columns" role="content">
 <?php #Breadcrumb Control
 if (narga_options('breadcrumb') == 1) :
     narga_breadcrumb();
@@ -23,5 +23,5 @@ endif;
 <?php comments_template( '', true ); ?>
 </div>
 <!-- End Content row -->
-<?php get_sidebar(); ?>
+<?php // get_sidebar(); ?>
 <?php get_footer(); ?>

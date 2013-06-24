@@ -39,10 +39,10 @@
 <body <?php body_class(); ?>>
 
     <!-- ZURB Foundation Top Bar -->
-    <?php narga_topbar() ?>
 
     <!-- Header: include logo, top ads ... -->
     <?php narga_header(); ?>    
 
     <!-- Main content area -->
     <section id="main" class="row" role="grid">
+        <?php narga_topbar() ?>

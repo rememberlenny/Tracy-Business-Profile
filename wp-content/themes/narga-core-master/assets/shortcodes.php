@@ -48,19 +48,64 @@ add_shortcode( 'alert', 'narga_shortcode_alert' );
  * ZURB Foundation Columns shortcode
  * @param array $atts
  * @return string
- * [column][/column]
+ * [row][/row]
  * since NARGA v1.1.0
  **/
-function narga_shortcode_columns( $atts, $content = null ) {
-    extract( shortcode_atts( array('center' => '', 'span' => '',), $atts ) );
+function narga_shortcode_rows( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+        'center' => '', 
+        'span' => '',
+        'push' => '',
+        'offset' => '',
+        ), $atts ) );
+    
     # Set the 'center' variable
     if ($center == 'true') {
         $center = 'centered';
     }
-    return '<div class="' . esc_attr($span) . ' columns ' . esc_attr($center) .'">' . do_shortcode($content) . '</div>';
+    return '<div class="row">' . do_shortcode($content) . '</div>';
+}
+add_shortcode( 'row', 'narga_shortcode_rows' );
+
+/**
+ * ZURB Foundation Columns shortcode
+ * @param array $atts
+ * @return string
+ * [column][/column]
+ * since NARGA v1.1.0
+ **/
+function narga_shortcode_columns( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+        'center' => '', 
+        'span' => '',
+        'push' => '',
+        'offset' => '',
+        ), $atts ) );
+    
+    # Set the 'center' variable
+    if ($center == 'true') {
+        $center = 'centered';
+    }
+    return '<div class=" large-'. esc_attr($span) . ' columns large-offset-'. esc_attr($offset) . esc_attr($center) .'">' . do_shortcode($content) . '</div>';
 }
 add_shortcode( 'column', 'narga_shortcode_columns' );
 
+// Panels
+function panels( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+    'type' => ' ', /* warning, success, error */
+    'close' => 'false', /* display close link */
+    'text' => '', 
+    ), $atts ) );
+    
+    $output = '<div class="panel">';
+    $output .= $text;
+    $output .= '</div>';
+    
+    return $output;
+}
+
+add_shortcode('panel', 'panels');
 /**
  * ZURB Foundation Buttons shortcode
  * @param array $atts
@@ -85,6 +130,7 @@ function narga_shortcode_button( $atts, $content = null ) {
 }
 
 add_shortcode( 'button', 'narga_shortcode_button' );
+
 
 # Converts audio5 shortcode to HTML5 audio tag
 # [audio5 src="http://yoursite.com/upload-folder/filename.mp3" loop="true" autoplay="autoplay" preload="auto" loop="loop" controls=""]
