@@ -1,4 +1,6 @@
-<?php /**
+<?php 
+
+/**
  *
  * Sets up the theme and provides some helper functions, which are used
  * in the theme as custom template tags. Others are attached to action and
@@ -20,6 +22,8 @@
  * @since NARGA Framework 1.0
  */
 
+
+
 /*  -----------------------------------
     :: Narga WordPress Framework Assets
     ------------------------------------ */
@@ -29,15 +33,14 @@ require_once locate_template('/assets/topbar.php' );
 require_once locate_template('/assets/integration.php' );
 
 require_once('atriangle-functions/options-menu.php');
-
+require_once('atriangle-functions/custon-fields.php');
 
 require_once('narga-functions/basic-setup.php');
-
-
 
 /* ----------------------------------------
    :: Enqueue Scripts and Styles for Front-End
    ---------------------------------------- */
+
 function narga_assets() {
     global $wp_styles;
 

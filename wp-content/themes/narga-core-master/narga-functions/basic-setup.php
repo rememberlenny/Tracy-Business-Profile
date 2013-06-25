@@ -30,7 +30,10 @@ if (!isset( $content_width))
         register_nav_menus(array(
                     'top-bar-l' => __('Left Top Bar', 'narga'),
                     'top-bar-r' => __('Right Top Bar', 'narga'),
-                    'footer_navigation' => __('Footer Navigation', 'narga')
+                    'footer_navigation' => __('Footer Navigation', 'narga'),
+                    'advertiser-navigation' => __('Advertiser Navigation', 'narga'),
+                    'developer-navigation' => __('Developer Navigation', 'narga'),
+                    'about-navigation' => __('About Navigation', 'narga')
                     ));
 
 # Enables post and comment RSS feed links to head

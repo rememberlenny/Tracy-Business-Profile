@@ -45,4 +45,4 @@
 
     <!-- Main content area -->
     <section id="main" class="row" role="grid">
-        <?php narga_topbar() ?>
+        <?php narga_topbar(); ?>
