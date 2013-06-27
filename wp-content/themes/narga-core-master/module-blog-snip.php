@@ -1,4 +1,7 @@
+<div class="large-8 column large-centered">
 
+    <hr>
+    <h3 class="subheader text-center">Latest News</h3>
 <?php 
           rewind_posts();
           $mypost = array( 'post_type' => 'post', 'posts_per_page' => '2' );
@@ -13,3 +16,7 @@
         <div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'narga' ) ); ?></div>
     </nav>
     <?php } ?>
+
+    
+    <hr>
+</div>

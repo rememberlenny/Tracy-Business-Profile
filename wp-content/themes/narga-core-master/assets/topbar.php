@@ -12,13 +12,13 @@ function narga_topbar_l() {
         'container' => false, // remove nav container
         'container_class' => 'menu', // class of container
         'menu' => '', // menu name
-        'menu_class' => 'top-bar-menu right', // adding custom nav class
+        'menu_class' => 'top-bar-menu left', // adding custom nav class
         'theme_location' => 'top-bar-l', // where it's located in the theme
         'before' => '', // before each link <a>
         'after' => '', // after each link </a>
         'link_before' => '', // before each link text
         'link_after' => '', // after each link text
-        'depth' => 1, // limit the depth of the nav
+        'depth' => 5, // limit the depth of the nav
         'fallback_cb' => false, // fallback function (see below)
         'walker' => new NargaTopbarWalker()
     ));
@@ -36,7 +36,7 @@ function narga_topbar_r() {
         'after' => '', // after each link </a>
         'link_before' => '', // before each link text
         'link_after' => '', // after each link text
-        'depth' => 1, // limit the depth of the nav
+        'depth' => 5, // limit the depth of the nav
         'fallback_cb' => false, // fallback function (see below)
         'walker' => new NargaTopbarWalker()
     ));
@@ -83,7 +83,7 @@ class NargaTopbarWalker extends Walker_Nav_Menu {
     function end_lvl(&$output, $depth) {
         $indent = str_repeat("\t", $depth);
         $output .= $indent.'</ul>'."\n";
-    }	
+    }   
     function display_element($element, &$children_elements, $max_depth, $depth=0, $args, &$output) {
         $id_field = $this->db_fields['id'];
         if (is_object($args[0])) {

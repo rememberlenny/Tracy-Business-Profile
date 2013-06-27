@@ -42,7 +42,10 @@
 
     <!-- Header: include logo, top ads ... -->
     <?php narga_header(); ?>    
-
+    <?php narga_topbar(); ?>
+    <?php do_action('icl_language_selector'); ?>
     <!-- Main content area -->
-    <section id="main" class="row" role="grid">
-        <?php narga_topbar(); ?>
+    
+    <div id="main-container" class="large-12 ">
+        <div id="hero-intro" class="large-12 height-bg-image"></div>
+        <section id="main" class="row pt1em" role="grid">

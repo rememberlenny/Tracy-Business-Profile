@@ -1,0 +1,20 @@
+@media only screen and (max-width: 58.75em) {
+  #lang_sel{
+    display:none;
+  }
+}
+@media only screen and (min-width: 58.75em) {
+  #lang_sel{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 1em;
+    margin-right: 1.3em;
+    a,
+    a:visited{
+      border: none !important;
+      padding-right: 20px;
+      text-align: right;
+    }
+  }
+}

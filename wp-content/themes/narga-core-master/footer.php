@@ -12,7 +12,8 @@
 ?>
 
 <!-- End row for main content area -->
-            </section>		
+            </section>      
+        </div>		
 
         <!-- Footer area -->
         <footer class="row" role="contentinfo">

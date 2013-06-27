@@ -7,15 +7,15 @@
 * @since NARGA Framework 1.2
 */
 ?>
-<?php narga_about_navigation(); ?>
 
 <div class="row hero-image-overlay">
   <div class="column large-10 large-centered mt3em">
     <div class="column">
-      <h1 class="d-inline highlight-title"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'View %s', 'narga' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"  class="white"><?php the_title(); ?></a></h1>
+      <h1 class="white d-inline highlight-title"><?php the_title(); ?></h1>
     </div>
   </div>
 </div>
+
 
 <?php while (have_posts()) : the_post(); ?>
 
@@ -34,3 +34,19 @@
 
 
 <?php endwhile; // End the loop ?>
+
+
+<!-- blog insert -->
+<?php get_template_part( 'module-blog-snip'); ?>
+
+<!-- service crosssell -->
+<?php get_template_part( 'module-page-additional'); ?>
+
+<!-- action bar -->
+<?php get_template_part( 'module-call-to-action-bar'); ?>
+
+<!-- company crosssell -->
+<?php get_template_part( 'module-page-snip'); ?>
+
+<!-- CTA bar -->
+<?php get_template_part( 'module-contact-bar'); ?>

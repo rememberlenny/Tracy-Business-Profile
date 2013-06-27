@@ -34,6 +34,7 @@ require_once locate_template('/assets/integration.php' );
 
 require_once('atriangle-functions/options-menu.php');
 require_once('atriangle-functions/custon-fields.php');
+require_once('atriangle-functions/about-menu.php');
 
 require_once('narga-functions/basic-setup.php');
 

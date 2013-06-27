@@ -7,10 +7,7 @@
 * @since NARGA Framework 1.2
 */
 ?>
-<div class="large-8 column large-centered">
 
-    <hr>
-    <h3 class="subheader text-center">Latest News</h3>
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article">
         <header>
             <div class="row">
@@ -36,5 +33,3 @@
         </div>
     </article>
 
-    <hr>
-</div>

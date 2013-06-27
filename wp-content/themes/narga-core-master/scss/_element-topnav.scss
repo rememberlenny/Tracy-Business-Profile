@@ -24,4 +24,87 @@
   .top-bar-section li a:not(.button) {
     padding: 0 25px !important;
   }
+
+  // start remove top-bar dropdown
+
+    .top-bar-section .has-dropdown {
+        position: relative
+    }
+
+    .top-bar-section .has-dropdown>a:after {
+        content: "";
+        display: inline !important;
+        width: 0;
+        height: 0;
+        border: none !important;
+        border-color: transparent !important;
+        border-left-style: none !important;
+        margin-right: 0px;
+        margin-top: 0px;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .top-bar-section .has-dropdown.moved {
+        position: static
+    }
+
+    .top-bar-section .has-dropdown.moved>.dropdown {
+        visibility: visible
+    }
+
+    .top-bar-section .dropdown {
+        position: relative !important;
+        left: 0 !important;
+        top: 0;
+        visibility: hidden;
+        z-index: 99
+    }
+
+    .top-bar-section .dropdown li {
+        width: 100%;
+        height: auto
+    }
+
+    .top-bar-section .dropdown li a {
+        font-weight: normal;
+        padding: 0px 0px !important;
+    }
+
+    .top-bar-section .dropdown li.title h5 {
+        margin-bottom: 0
+    }
+
+    .top-bar-section .dropdown li.title h5 a {
+        color: transparent;
+        line-height: 0px;
+        display: inline;
+    }
+
+    .top-bar-section .dropdown label {
+        padding: 0px  0px 0px !important;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        color: transparent !importants;
+        font-weight: bold;
+        font-size: 0em;
+    }
+
+  // !end dropdown icon fix.
+
+  // start hide dropdown items on full-screen
+  .sub-menu{ 
+    &.dropdown{
+      display: none !important;
+    }
+  }
+  // end hide dropdown items on full-screen
+
+  .has-dropdown.active{
+    a{
+      color: #777 !important;
+    }
+  }
 }
+

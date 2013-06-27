@@ -1,0 +1,21 @@
+.child-page-nav{
+  dt,
+  dd {
+    &.current_page_item{
+      margin-top: -1px;
+    };
+    a {
+      color: white !important;
+      font-weight: 300 !important;
+      &:hover{
+        opacity: .8;
+      }
+    }
+
+    &.active a {
+      font-weight: bold !important;
+      background: none !important;
+      color: white !important;
+    }
+  }
+}

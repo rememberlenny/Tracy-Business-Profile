@@ -1,9 +1,15 @@
-#site-header{
-  &.background-image{
-    background:url('http://fakeimg.pl/2200x600/') center center;
-    position: absolute;
-    height: 600px;
-    max-width: 100%;
+.home{
+  #site-header{
+    &.background-image{
+      background:url('http://fakeimg.pl/2200x600/') center center;
+    }
   }
 }
+  #site-header{
+    &.background-image{
+      position: absolute;
+      height: 600px;
+      max-width: 100%;
+    }
+  }
 // #side-header.background-image
