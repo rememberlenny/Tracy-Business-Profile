@@ -16,6 +16,10 @@
       font-weight: bold !important;
       background: none !important;
       color: white !important;
+      &:first-child{
+        padding-left: 0em !important;
+      }
     }
   }
 }
+

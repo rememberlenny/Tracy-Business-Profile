@@ -1,20 +1,29 @@
-@media only screen and (max-width: 58.75em) {
-  #lang_sel{
-    display:none;
-  }
-}
+@import 'foundation/variables';
+@import 'foundation/components/global'; 
+
 @media only screen and (min-width: 58.75em) {
   #lang_sel{
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    margin-top: 1em;
-    margin-right: 1.3em;
+    font-family: $body-font-family;
+    height: auto;
+    li{
+      width: auto;
+    }
     a,
     a:visited{
+      &.lang_sel_sel {
+        background: url(../img/nav-arrow-down.png) transparent right no-repeat;
+      }
       border: none !important;
       padding-right: 20px;
       text-align: right;
+      line-height: 8px;
+      padding-left: 1em;
+      &:after {
+        @include css-triangle(3px, #666, top);
+        position: absolute;
+        top: 25%;
+        right: 12%;
+      }
     }
   }
 }

@@ -43,9 +43,29 @@
     <!-- Header: include logo, top ads ... -->
     <?php narga_header(); ?>    
     <?php narga_topbar(); ?>
-    <?php do_action('icl_language_selector'); ?>
-    <!-- Main content area -->
     
+    <?php global $current_user;
+          get_currentuserinfo();
+          $atriangleUsername = $current_user->user_login;
+          $atriangleFirst =  $current_user->user_firstname;
+          $atriangleOutputName = ($atriangleFirst) ? $atriangleFirst : $atriangleUsername;
+    ?>
+
+    <?php $urlLogin = site_url('/login/', 'http'); ?>
+    <?php echo '<div id="topSpecialNav" class="text-right row right special-top-right-nav">'; ?> 
+    <?php echo '<div class="d-inline" style="font-size: 11px;">'; ?> 
+    <?php   if ( is_user_logged_in() ) {
+            echo 'Welcome, '. $atriangleOutputName .'!';
+            } else {
+                echo '<a href="'. $urlLogin .'">Login</a>';
+            }?>
+    <?php echo '</div>'; ?>
+    <?php echo '<div class="d-inline">'; ?>
+    <?php do_action('icl_language_selector'); ?>
+    <?php echo '</div>'; ?>
+    <?php echo '</div>'; ?>
+    <!-- Main content area -->
+
     <div id="main-container" class="large-12 ">
         <div id="hero-intro" class="large-12 height-bg-image"></div>
         <section id="main" class="row pt1em" role="grid">
