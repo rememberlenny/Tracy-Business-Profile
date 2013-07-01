@@ -11,6 +11,9 @@ a{
     @include transition(all, .2s);
   }
 }
+.fs14em{
+  font-size: 1.4em;
+}
 body{
   overflow-x: hidden;
   background: white;
@@ -124,6 +127,7 @@ label {
   .pb05em{ padding-bottom:0.5em; }
   .mn93{ margin-left: -0.9375em; }
   .pt5em{ padding-top: 5em; }
+  .pt05em{ padding-top: 0.5em; }
   .pt1em{ padding-top: 1em; }
   .pr0em{ padding-right: 0em !important; }
   .pl0em{ padding-left: 0em !important; }

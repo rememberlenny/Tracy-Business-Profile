@@ -1,5 +1,5 @@
 <div class="row contact-bar">
-  <div class="panel background-image column large-centered large-10">
+  <div class=" background-image column large-centered large-10">
     <div class="large-6">
       <div class="row">
         <div class="column">

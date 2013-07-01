@@ -1,0 +1,16 @@
+@import 'foundation/variables';
+@import 'foundation/components/global'; 
+
+@media only screen and (min-width: 58.75em) {
+  .home{
+    #topSpecialNav{
+      color: rgba(255,255,255,.8) !important;
+    }
+    #lang_sel{
+      a,
+      a:visited{
+        color: rgba(255,255,255,.8);
+      }
+    }
+  }
+}

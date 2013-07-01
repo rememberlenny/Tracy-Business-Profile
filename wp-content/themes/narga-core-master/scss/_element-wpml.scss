@@ -11,18 +11,28 @@
     a,
     a:visited{
       &.lang_sel_sel {
-        background: url(../img/nav-arrow-down.png) transparent right no-repeat;
+        vertical-align: bottom;
+        background: transparent right no-repeat;
       }
       border: none !important;
       padding-right: 20px;
       text-align: right;
       line-height: 8px;
       padding-left: 1em;
-      &:after {
+      &.lang_sel_sel:after {
         @include css-triangle(3px, #666, top);
         position: absolute;
         top: 25%;
         right: 12%;
+      }
+    }
+    & ul ul {
+      border: none !important;
+      a, 
+      a:visited{
+        background: transparent!important;
+        border: none !important;
+        padding-left: 1em !important;
       }
     }
   }

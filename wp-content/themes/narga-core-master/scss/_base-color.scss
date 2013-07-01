@@ -1,2 +1,10 @@
 $brand-primary-color: red;
-$brand-secondary-color: blue;
+$brand-secondary-color: #3283ac;
+$brand-third: #493936;
+
+.secondary-color{
+  color: $brand-secondary-color;
+}
+.third-color{
+  color: $brand-third !important;
+}

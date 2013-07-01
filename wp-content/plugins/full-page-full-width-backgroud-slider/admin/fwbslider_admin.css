@@ -1,0 +1,26 @@
+/*-- FWB Slider Admin Style
+-----------------------------------*/
+#fwbslider_post_metas {background: none repeat scroll 0 0 #EAF6FC;border: 1px solid #0B3E60;font-family: verdana;}
+#fwbslider_post_metas  #fwbslider_update{border-radius: 5px 5px 5px 5px;padding: 3px 17px}
+#fwbslider_post_metas .fwbslider_form{background: none repeat scroll 0 0 #D7E4EA;border-radius:5px;margin-top: 10px;padding: 5px 10px 10px 15px;}
+#fwbslider_post_metas  span.desc{background: none repeat scroll 0 0 #053B54;color: #FAFAFA;display: block;font-size: 12px;line-height: 20px;padding: 10px;text-align: center;border-radius: 2px 2px 2px 2px;}
+#fwbslider_post_metas h3.hndle span{font-family: fantasy;font-size: 14px;font-weight: bold;}
+#fwbslider_post_metas   table{background: none repeat scroll 0 0 #D7E4EA;border-radius:5px;margin-bottom: 10px;margin-top: 10px;padding: 10px;width: 100%;}
+#fwbslider_post_metas   table td{padding:10px 0;}
+#fwbslider_post_metas   table input[type="text"]{width:300px;}
+.fwbslide_wrap .fwb_rdlb{border: 4px solid #E4E4E4;border-radius: 2px 2px 2px 2px; float: left; margin:3px; padding: 14px;} 
+.fwbslide_wrap  .fwb_proFeature{background-color:#F99F9F !important;position:relative; left: -10px;margin:0 !important;border: 1px solid #7F0E0E;border-radius: 5px 5px 5px 5px;padding: 5px;}
+.fwbslide_wrap .fwb_rdlb input{display:none;}
+.fwbslide_wrap  .fwb_proFeature th{width:183px;}
+.fwbslide_wrap  .fwb_proFeature th a {color: #D30E0E;font-size: 14px;}
+#fwbslider_post_metas th{text-align:left; color:#0B3E60;}
+#fwbslider_post_metas .fwb_uploadbtn{cursor:pointer;}
+#fwbslider_post_metas .fwbslide_wrap  .fwb_proFeature th{width:140px;}
+#fwbslider_post_metas .fwb_colwrap{position:relative;width:120px;}	
+#fwbslider_post_metas .fwb_colwrap .fwb_color_inp{width:100px;}
+#fwbslider_post_metas .fwb_colsel{background:url('../images/color_pick.png');height: 22px;margin-top: 1px;position: absolute;top: 0;width: 22px;right:0;cursor:pointer;}
+#fwbslider_post_metas .fwb_colsel .farbtastic{display:none;position:absolute;top:8px;}
+#fwbslider_post_metas .fwbfleft{float:left;}
+.fwblite_iframe{left: 880px;position: fixed; top: 75px;} 
+
+#fwb_updates{background: none repeat scroll 0 0 #D7E4EA;color: #B70303;font-family: verdana;font-size: 12px;font-weight: bold;margin-bottom: 10px;margin-top: 8px;padding:6px;text-align: center;border-radius:2px;}

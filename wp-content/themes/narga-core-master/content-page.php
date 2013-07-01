@@ -40,13 +40,13 @@
 <?php get_template_part( 'module-blog-snip'); ?>
 
 <!-- service crosssell -->
-<?php get_template_part( 'module-page-additional'); ?>
+<?php // get_template_part( 'module-page-additional'); ?>
 
 <!-- action bar -->
-<?php get_template_part( 'module-call-to-action-bar'); ?>
+<?php // get_template_part( 'module-call-to-action-bar'); ?>
 
 <!-- company crosssell -->
-<?php get_template_part( 'module-page-snip'); ?>
+<?php // get_template_part( 'module-page-snip'); ?>
 
 <!-- CTA bar -->
 <?php get_template_part( 'module-contact-bar'); ?>

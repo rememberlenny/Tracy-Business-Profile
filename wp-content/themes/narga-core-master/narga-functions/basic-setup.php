@@ -33,7 +33,9 @@ if (!isset( $content_width))
                     'footer_navigation' => __('Footer Navigation', 'narga'),
                     'advertiser-navigation' => __('Advertiser Navigation', 'narga'),
                     'developer-navigation' => __('Developer Navigation', 'narga'),
-                    'about-navigation' => __('About Navigation', 'narga')
+                    'about-navigation' => __('About Navigation', 'narga'),
+                    'blog-navigation' => __('Blog Navigation', 'narga'),
+                    'contact-navigation' => __('Contact Navigation', 'narga')
                     ));
 
 # Enables post and comment RSS feed links to head

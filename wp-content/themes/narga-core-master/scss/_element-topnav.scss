@@ -1,10 +1,44 @@
 
 
+@media only screen and (max-width: 58.75em) {
+  .contain-to-grid{
+    background: white !important;
+  }
+  .top-bar{
+    background: white !important;
+    .toggle-topbar.menu-icon a{
+      color: #333 !important;
+      span{
+        -webkit-box-shadow: 0 10px 0 1px rgb(30, 30, 30),0 16px 0 1px rgb(30, 30, 30),0 22px 0 1px rgb(30, 30, 30);
+        box-shadow: 0 10px 0 1px rgb(30, 30, 30),0 16px 0 1px rgb(30, 30, 30),0 22px 0 1px rgb(30, 30, 30);
+      }
+    }
+    &.expanded .title-area{
+      background: white !important;
+    }
+    .top-bar-section{
+        ul li.active>a{
+          color: white;
+        }
+      .sub-menu.dropdown{
+        height: auto !important;
+      } 
+    }
+  }
+  .title-area{
+    img{
+      max-height: 37px !important;
+    }
+  }
+}
 @media only screen and (min-width: 58.75em) {
   .contain-to-grid{
     padding-top:    1.75em;
     padding-bottom: 1.25em;
     z-index: 1;
+  }
+  .title-area{
+    margin-top: -.7em !important;
   }
   .top-bar-section li a:not(.button),
   .contain-to-grid,
