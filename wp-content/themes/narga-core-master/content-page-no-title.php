@@ -15,7 +15,7 @@
         <h1 class="white">We are China experts.</h1>
         <p class="white">AdsYolo speaks to the Chinese every minute through our AMP network of 50,000 apps that deliver over 14 BILLION impressions monthly.</p>
 
-        <a href="" class="button bold">Customers find out more.</a>
+        <a href="<?php bloginfo('url'); ?>/advertisers" class="button bold">Customers find out more.</a>
       </div>
     </div>
 
@@ -24,7 +24,7 @@
         <h1 class="white">Developers and publishers.</h1>
         <p class="white">We help you expand your product adoption among the most engaged, purchase-empowered and fastest-growing audience.</p>
 
-        <a href="" class="button bold">Developers find out more.</a>
+        <a href="<?php bloginfo('url'); ?>/developers" class="button bold">Developers find out more.</a>
       </div>
     </div>
   </div>
