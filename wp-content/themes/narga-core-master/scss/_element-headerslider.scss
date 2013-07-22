@@ -1,0 +1,21 @@
+.slider-head-link{
+  .active{
+    font-weight: bold;
+    color: rgba(255, 255, 255, .7);
+    p{
+        border-top: 8px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-style: solid;
+        border-color: rgba(196, 45, 47, .7);
+        display: inline;
+    }
+  }
+}
+.panel-contexts{
+  display: none;
+  &.active{
+    display: block !important;
+  }
+}

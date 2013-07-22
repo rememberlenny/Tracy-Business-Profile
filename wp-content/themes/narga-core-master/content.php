@@ -7,6 +7,7 @@
 * @since NARGA Framework 1.2
 */
 ?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article">
     <header>
         <?php if ( is_single() ) : ?>

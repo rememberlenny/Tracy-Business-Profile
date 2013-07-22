@@ -10,7 +10,7 @@
 
 
     <div class="large-4 column text-center">
-        
+        <img src="<?php echo bloginfo('url') . '/wp-content/uploads/2013/06/filler-circle.png' ?>">
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article">
         <?php if ( is_single() ) : ?>
             <header class="">
@@ -24,7 +24,7 @@
         <section class="entry-content<?php if ( has_post_format( 'video' )) {echo ' flex-video';}?>">
             <?php the_field('footer-post-excerpt') ?>
         </section>
-        <footer>
+        <footer class="pb2em">
             <b>
                 <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'View %s', 'narga' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
                     Find out more

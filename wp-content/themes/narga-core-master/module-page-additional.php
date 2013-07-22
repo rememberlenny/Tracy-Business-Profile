@@ -1,5 +1,5 @@
 <div class="large-11 column large-centered">
-  <h3 class="subheader text-center">You might also be interested in</h3>
+  <h3 class="subheader text-center pt2em">You might also be interested in</h3>
   <?php 
         rewind_posts();
         $mypost = array( 'post_type' => 'services', 'posts_per_page' => '3' );
