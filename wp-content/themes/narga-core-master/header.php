@@ -65,14 +65,14 @@
                 echo '<a href="'. $urlLogin .'">Login</a>';
             }?>
     <?php echo '</div>'; ?>
-    <?php echo '<div class="d-inline">'; ?>
-    <?php do_action('icl_language_selector'); ?>
-    <?php echo '</div>'; ?>
+    <?php // echo '<div class="d-inline">'; ?>
+    <?php // do_action('icl_language_selector'); ?>
+    <?php // echo '</div>'; ?>
     <?php echo '</div>'; ?>
     <!-- Main content area -->
 
     <div id="main-container" class="large-12 ">
-        <div id="hero-intro-container">
+        <div id="hero-intro-container" class="">
             <div id="hero-intro-prehead" class="large-12 d-inline"></div>
             <div id="hero-intro" class="large-12 height-bg-image"></div>
         </div>

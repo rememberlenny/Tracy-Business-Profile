@@ -319,10 +319,10 @@ foreach ($sidebars as $sidebar) {
 $sidebars = array('Footer');
 foreach ($sidebars as $sidebar) {
     register_sidebar(array('name'=> $sidebar,
-        'before_widget' => '<article id="%1$s" class="large-3 columns widget hide-for-small %2$s"><div class="footer-section">',
-        'after_widget' => '</div></article>',
-        'before_title' => '<h4>',
-        'after_title' => '</h4>'
+        'before_widget' => '<li id="%1$s" class="widget %2$s"><div class="footer-section">',
+        'after_widget' => '</div></li>',
+        'before_title' => '<p class="mb0em">',
+        'after_title' => '</p>'
     ));
 }
 

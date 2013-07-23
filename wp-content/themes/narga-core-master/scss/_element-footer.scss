@@ -1,0 +1,21 @@
+#footer-widgets{
+  &> ul{
+    margin-left: 0em !important;
+  }
+}
+.footer-section{
+  p{
+    font-size:.9em;
+    color: #eee;
+  }
+  ul{
+    font-size:.9em;
+    margin-left: 0em !important;
+    a{
+      color: #ccc;
+    }
+  }
+}
+.background-foot{
+  background:url('http://adsyolo:4421/wp-content/uploads/2013/07/tweed.png');
+}

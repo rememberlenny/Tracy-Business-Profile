@@ -16,18 +16,22 @@
         </div>		
 
         <!-- Footer area -->
-        <footer class="row" role="contentinfo">
-            <div id="footer-widgets">
-                <?php dynamic_sidebar("Footer"); ?>
-            </div>
-                <hr />
+        <footer class="large-12" role="contentinfo">
+            <div class="zigzap" style="height:26px; background-repeat: repeat-x; background:url('<?php bloginfo('url')?>/wp-content/uploads/2013/07/zigzap.png');"></div>
+            <div class="background-foot">
+                <div class="row pt2em">
+                    <div class="large-10 large-centered column">
+                        <ul class="large-block-grid-5 small-block-grid-1">
+                            <?php dynamic_sidebar("Footer"); ?>
+                            <?php // narga_footer_navigation(); ?>
+                        </ul>
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="large-6 columns">
-                        <a href="http://www.atriangle.com" title="a triangle corporation" rel="designer">Built by &#9650; Triangle</a>
+                    <div class="large-12 text-center columns" style="padding-bottom: 1.2em; ">
+                        <a href="<?php bloginfo('url') ?>" style="opacity:.7;" title="AdsYolo" rel="company"><img style="max-width: 100px;" src="<?php bloginfo('url')?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" alt="AdsYolo Short Logo"></a>
                     </div>
-                    <div class="large-6 columns">
-                        <?php narga_footer_navigation(); ?>
-                    </div>
+                </div>
             </div>
         </footer>
         <!-- Check for Zepto support, load jQuery if necessary -->

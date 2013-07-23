@@ -1,5 +1,6 @@
 .slider-head-link{
   color: rgba(255, 255, 255, .7);
+  font-size: 1.2em;
   .active{
 
     color: rgba(255, 255, 255, 1);
@@ -21,5 +22,24 @@
   }
 }
 .panel-contexts-case{
-  overflow: hidden !important;
+
+  border: 10px solid #333 !important;
+}
+.orbit-timer{
+  visibility: hidden;
+}
+
+.orbit-bullets{
+  position: absolute !important;
+  top: 110% !important;
+  right: 4% !important;
+  li{
+    border: none !important;
+    opacity:.7;
+    &.active{
+      opacity:1;
+      background: #9b2325 !important;
+    }
+  }
+
 }

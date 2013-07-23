@@ -17,6 +17,9 @@ a{
 .pt2em{
   padding-top: 3em;
 }
+.pb0em{
+  padding-bottom: 0.4em !important;
+}
 body{
   overflow-x: hidden;
   background: white;
@@ -107,7 +110,7 @@ label {
   .fw400{ font-weight: 400; } 
   .lh1em{ line-height: 1em; }
   .lh2em{ line-height: 2em; }
-  .mb0em{ margin-bottom: 0em; } 
+  .mb0em{ margin-bottom: 0em !important; } 
   h2.fs3p25{ font-size: 3.25em; }  
   .fs1p2em{ font-size: 1.2em; line-height: 130%;}
   .h300 { height: 250px; }
@@ -132,6 +135,8 @@ label {
   .pt5em{ padding-top: 5em; }
   .pt05em{ padding-top: 0.5em; }
   .pt1em{ padding-top: 1em; }
+  .pt1p3em{ padding-top: 1.3em; }
+  .pt1p6em{ padding-top: 1.6em; }
   .pr0em{ padding-right: 0em !important; }
   .pl0em{ padding-left: 0em !important; }
   .pb1em{ padding-bottom: 1em; }
