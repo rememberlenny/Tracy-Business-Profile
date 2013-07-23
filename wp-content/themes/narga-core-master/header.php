@@ -72,5 +72,8 @@
     <!-- Main content area -->
 
     <div id="main-container" class="large-12 ">
-        <div id="hero-intro" class="large-12 height-bg-image"></div>
+        <div id="hero-intro-container">
+            <div id="hero-intro-prehead" class="large-12 d-inline"></div>
+            <div id="hero-intro" class="large-12 height-bg-image"></div>
+        </div>
         <section id="main" class="row pt1em" role="grid">
