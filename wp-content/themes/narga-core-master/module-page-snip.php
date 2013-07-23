@@ -1,5 +1,5 @@
 
-<div class="large-11 column large-centered">
+<div class="large-11 column pt1em large-centered">
   <h3 class="subheader text-center">Discover more about AdsYolo</h3>
     <?php 
           rewind_posts();

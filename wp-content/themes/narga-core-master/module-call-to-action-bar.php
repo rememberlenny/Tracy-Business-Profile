@@ -1,13 +1,18 @@
 <div class="row contact-bar">
-  <div class=" background-image column large-centered large-10">
-    <div class="large-6">
-      <div class="row">
-        <div class="column">
-          <h3>Do this thing now?</h3>
-          <p>Yes. More explaination. And more.</p>
-          <a href="#" class="button radius">
-            Try this thing
-          </a>
+  <div class="p1t2em background-image column large-centered large-10">
+    <div class="row">
+      <div class="small-12 d-inline">
+        <h3 class="text-center">We have your industry newsletter.</h3>
+        <p class="text-center">Do you want to stay in touch? Subscribe to our email newsletter.</p>
+        <div class="large-7 large-centered column text-center small-12">
+          <div class="row collapse">
+            <div class="small-9 columns">
+              <input type="email" placeholder="you@address.com">
+            </div>
+            <div class="small-3 columns">
+              <a href="#" class="button prefix">Subscribe</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

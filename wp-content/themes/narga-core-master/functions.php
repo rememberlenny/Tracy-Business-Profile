@@ -67,7 +67,7 @@ function narga_assets() {
 
         wp_enqueue_script( 'narga', get_template_directory_uri() . '/javascripts/narga.js', array(), '1.3.3', true );
 
-        wp_enqueue_script( 'narga', get_template_directory_uri() . '/javascripts/slider-function.js', array(), '1.0', true );
+        wp_enqueue_script( 'home-slider', get_template_directory_uri() . '/javascripts/slider-function.js', array(), '1.0', true );
 
 # Enable threaded comments 
         if ( (!is_admin()) && is_singular() && comments_open() && get_option('thread_comments') )

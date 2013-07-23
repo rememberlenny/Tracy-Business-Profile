@@ -52,7 +52,7 @@
     ?>
 
     <?php $urlLogin = site_url('/login/', 'http'); ?>
-    <?php echo '<div id="topSpecialNav" class="text-right row right special-top-right-nav">'; ?> 
+    <?php echo '<div id="topSpecialNav" class="text-right ab-right right special-top-right-nav">'; ?> 
     <?php echo '<div class="d-inline" style="font-size: 11px;">'; ?> 
     <?php   if ( is_user_logged_in() ) {
             echo 'Welcome, '. $atriangleOutputName .'!';

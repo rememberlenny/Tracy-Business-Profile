@@ -40,7 +40,7 @@
 <?php get_template_part( 'module-blog-snip'); ?>
 
 <!-- service crosssell -->
-<?php get_template_part( 'module-page-additional'); ?>
+<?php // get_template_part( 'module-page-additional'); ?>
 
 <!-- action bar -->
 <?php get_template_part( 'module-call-to-action-bar'); ?>

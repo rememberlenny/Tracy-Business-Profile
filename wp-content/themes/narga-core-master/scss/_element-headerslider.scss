@@ -1,7 +1,8 @@
 .slider-head-link{
+  color: rgba(255, 255, 255, .7);
   .active{
-    font-weight: bold;
-    color: rgba(255, 255, 255, .7);
+
+    color: rgba(255, 255, 255, 1);
     p{
         border-top: 8px;
         border-bottom: 0px;
@@ -18,4 +19,7 @@
   &.active{
     display: block !important;
   }
+}
+.panel-contexts-case{
+  overflow: hidden !important;
 }
