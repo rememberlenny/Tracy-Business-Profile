@@ -23,6 +23,11 @@
 <!--[if gt IE 8]>
 <!--> <html class="no-js" <?php language_attributes(); ?>>
 <!--<![endif]-->
+
+<!-- Start ref code for Good Games Studio -->
+<!-- 87a29acbc8fb5f20188445a909d307cc -->
+<!-- End ref code -->
+
 <head <?php language_attributes(); ?>>
     <meta charset="<?php bloginfo('charset'); ?>">
     <title><?php wp_title( '|', true, 'right' ); ?></title>

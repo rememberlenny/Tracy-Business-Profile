@@ -13,13 +13,15 @@
     color: #333;
     padding-right: 1em;
   }
-    background: rgba(55,55,55,.6) !important;
-    border-radius: 5px;
-    padding: 82px 8px 5px 16px;
-    margin-top: -82px;
-
+  border-radius: 5px;
+  padding: 82px 8px 5px 16px;
+  margin-top: -82px;
 }
 .home #topSpecialNav{
+  background: rgba(55,55,55,.6) !important;
+  a{
+    color: white !important;
+  }
   &>*,
   &> .d-inline{
   }
