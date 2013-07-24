@@ -35,6 +35,8 @@ if (!isset( $content_width))
                     'developer-navigation' => __('Developer Navigation', 'narga'),
                     'about-navigation' => __('About Navigation', 'narga'),
                     'blog-navigation' => __('Blog Navigation', 'narga'),
+                    'services-navigation' => __('Services Navigation', 'narga'),
+                    'china-navigation' => __('China Navigation', 'narga'),
                     'contact-navigation' => __('Contact Navigation', 'narga')
                     ));
 

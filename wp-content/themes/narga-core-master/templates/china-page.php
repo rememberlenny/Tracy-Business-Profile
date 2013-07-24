@@ -9,7 +9,7 @@ get_header(); ?>
     <div id="full-width-wrapper" class="large-12 columns" role="content">
       <div class="row">
         <div class="column hide-for-mobile child-page-nav">
-          <?php atri_advertiser_navigation(); ?>
+          <?php atri_china_navigation(); ?>
         </div>
       </div>
     <?php get_template_part('content', 'page'); ?>
