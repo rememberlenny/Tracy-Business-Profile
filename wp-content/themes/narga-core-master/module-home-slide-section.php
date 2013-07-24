@@ -1,12 +1,11 @@
 <div class="large-10 mt2em large-offset-1">
     <div class="large-12 column teal-bg slider-height" >
-      <div class="" style="background: rgba(255, 255, 255, .7);
-padding-top: .4em;">
-        <div class="row">
+      <div class="" style="">
+        <div class="row hide-for-small" style="margin-top: .4em;">
           <ul class="large-block-grid-3 slider-head-link pt1em">
-            <li class="pb0em"><a href="#" data-orbit-link="headline-2" class="slide-1 column text-center"><p class="mb0em" style="color: #222; opacity: .6;">China Experts</p></a></li>
-            <li class="pb0em"><a href="#" data-orbit-link="headline-3" class="slide-2 column text-center"><p class="mb0em" style="color: #222; opacity: .6;">Thriving Ad Network</p></a></li>
-            <li class="pb0em"><a href="#" data-orbit-link="headline-4" class="slide-3 column text-center"><p class="mb0em" style="color: #222; opacity: .6;">Rich Analytics</p></a></li>
+            <li class="pb0em"><a href="#" data-orbit-link="headline-2" class="slide-1 column text-center slider-titles"><p class="mb0em">China Experts</p></a></li>
+            <li class="pb0em"><a href="#" data-orbit-link="headline-3" class="slide-2 column text-center slider-titles"><p class="mb0em">Thriving Ad Network</p></a></li>
+            <li class="pb0em"><a href="#" data-orbit-link="headline-4" class="slide-3 column text-center slider-titles"><p class="mb0em">Rich Analytics</p></a></li>
           </ul>
         </div>
 

@@ -2,7 +2,7 @@
   <div class="p1t2em background-image column large-centered large-10">
     <div class="row">
       <div class="small-12 small-centered column large-centered large-12 d-inline">
-        <h3 class="text-center">We have your industry newsletter.</h3>
+        <h3 class="text-center">Email Newsletter Signup</h3>
         <p class="text-center">Do you want to stay in touch? Subscribe to our email newsletter.</p>
         <div class="large-7 large-centered column text-center small-centered small-11">
           <div class="row collapse">
