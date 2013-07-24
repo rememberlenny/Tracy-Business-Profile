@@ -51,6 +51,3 @@
 <!-- action bar -->
 
 <!-- company crosssell -->
-
-<!-- CTA bar -->
-<?php get_template_part( 'module-contact-bar'); ?>

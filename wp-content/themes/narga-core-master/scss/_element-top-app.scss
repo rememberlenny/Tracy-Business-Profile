@@ -1,0 +1,13 @@
+.pricing-table{
+  .orbit-prev{
+    display: none !important;
+  }
+}
+.orbit-container .orbit-next{
+  width: 40px !important;
+  height: 140px !important;
+  opacity: .3;
+  &:hover{
+    opacity: 1;
+  }
+}

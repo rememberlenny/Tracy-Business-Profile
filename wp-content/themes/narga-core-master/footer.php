@@ -21,15 +21,37 @@
             <div class="background-foot">
                 <div class="row pt2em">
                     <div class="large-10 large-centered column">
-                        <ul class="large-block-grid-5 small-block-grid-1">
-                            <?php dynamic_sidebar("Footer"); ?>
-                            <?php // narga_footer_navigation(); ?>
-                        </ul>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="large-12 text-center columns" style="padding-bottom: 1.2em; ">
-                        <a href="<?php bloginfo('url') ?>" style="opacity:.7;" title="AdsYolo" rel="company"><img style="max-width: 100px;" src="<?php bloginfo('url')?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" alt="AdsYolo Short Logo"></a>
+                    <div class="large-12 text-center columns" style="">
+                    </div>
+                </div>
+            </div>
+            <div class="background-foot-dk">
+                <div class="row pt2em">
+                    <div class="large-10 large-centered column">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-12 text-center columns" style="">
+                        <!-- CTA bar -->
+                        <?php get_template_part( 'module-contact-bar'); ?>
+                    </div>
+                </div>
+            </div>
+            <div style="background:#222">
+                <div class="row pt1em">
+                    <div class="large-12 fw100 text-center columns" style="">
+                        <ul class="inline-list" style="margin-bottom:.2em;  opacity: .4">
+                            <li>
+                                <a href="<?php bloginfo('url') ?>" title="AdsYolo" rel="company"><img style="max-width: 40px;" class='d-inline-c' src="<?php bloginfo('url')?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" alt="AdsYolo Short Logo"></a>
+                            </li>
+                            <?php dynamic_sidebar("Footer"); ?>
+                        </ul>
+                        <ul class="inline-list" style="  opacity: .3">
+                          <li class="white fs08em">© 2013 AdsYolo, Inc. All rights reserved.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

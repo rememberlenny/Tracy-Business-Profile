@@ -24,10 +24,22 @@
         </section>
     </article>  
   </div>
-<?php endwhile; // End the loop ?>
-<?php get_template_part( 'module-call-to-action-bar'); ?>
+  <div class="row">
+    <div class="large-4 column">
+      
+    </div>
+    <div class="large-4 column">
+      <?php get_template_part('module-email-contents'); ?>
+    </div>
+    <div class="large-4 column">
+      <?php get_template_part('module-top-app'); ?>
 
-<?php get_template_part( 'module-page-snip'); ?>
+    </div>
+  </div>
+<?php endwhile; // End the loop ?>
+
+
+<?php // get_template_part( 'module-page-snip'); ?>
 
 <?php get_template_part( 'module-blog-snip'); ?>
 
@@ -40,6 +52,3 @@
 <!-- action bar -->
 
 <!-- company crosssell -->
-
-<!-- CTA bar -->
-<?php get_template_part( 'module-contact-bar'); ?>

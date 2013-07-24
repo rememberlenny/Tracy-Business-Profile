@@ -11,14 +11,36 @@ a{
     @include transition(all, .2s);
   }
 }
+.d-inline-c{
+  display: inline !important;
+}
+.fs08em{
+  font-size: .8em;
+}
+.fs07em{
+  font-size: .7em!important;
+}
+.fw100{
+  font-weight: 100;
+}
+.pt02em{
+  padding-top:0.2em;
+}
+.pt05em{
+  padding-top:0.6em;
+}
 .fs14em{
   font-size: 1.4em;
 }
+.fs1em{ font-size: 1em !important;}
 .pt2em{
   padding-top: 3em;
 }
 .pb0em{
   padding-bottom: 0.4em !important;
+}
+.ml0em{
+  margin-left: 0em!important;
 }
 body{
   overflow-x: hidden;
