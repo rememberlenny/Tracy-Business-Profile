@@ -18,7 +18,7 @@
                       <img src="<?php bloginfo('url') ?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" style="max-height: 195px">
                     </div>
                     <div class="large-8 column ">
-                      <h2 class="">Speaks to China. <br>successful in China.</h2>
+                      <h2 class="">Speaks to China. <br>对话中国</h2>
                       <a href="<?php bloginfo('url'); ?>/advertisers" class="button medium bold">Learn more.</a>
                     </div>
                   </div>
