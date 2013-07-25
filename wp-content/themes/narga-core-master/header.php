@@ -57,7 +57,7 @@
 .background-foot{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed.png');}
 .background-foot-dk{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed-dk.png');} 
 .home #site-header.background-image {
-  background: url("<?php bloginfo('url')?>/wp-content/uploads/2013/07/slide31.jpg") center center; }
+  background: url("<?php bloginfo('url')?>/wp-content/uploads/2013/06/slide31.jpg") center center; box-shadow: inset 0px 40px 660px 30px #000; }
     </style>
 </head>
 <body <?php body_class(); ?>>
