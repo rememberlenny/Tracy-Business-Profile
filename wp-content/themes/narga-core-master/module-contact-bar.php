@@ -12,7 +12,8 @@
           <h4 class="third-color">New York</h4>
           <p class="address third-color" ref="address">
             175 Varick Street, 3rd FL.<br>
-            New York, NY 10014<br><br>
+            New York, NY 10014<br>
+            United States
           </p>
           <p class="phone-number fs14em third-color">(888) 806-9656</p>
         </div>

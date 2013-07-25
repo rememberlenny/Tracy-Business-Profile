@@ -42,7 +42,8 @@
                         <h5 class="greyd white fw100">New York</h5>
                         <p class="address white fs07em" ref="address" style="opacity:.8">
                           175 Varick Street, 3rd FL.<br>
-                          New York, NY 10014<br><br>
+                          New York, NY 10014<br>
+                          United States
                         </p>
                         <p class="phone-number fs07em fs14em white" style="opacity:.8">(888) 806-9656</p>
                       </div>
@@ -75,7 +76,7 @@
                           <li>
                             <ul class="inline-list" style="margin-bottom:.2em;  opacity: .4">
                                 <li>
-                                    <a href="<?php bloginfo('url') ?>" title="AdsYolo" rel="company"><img style="max-width: 40px;" class='d-inline-f' src="<?php bloginfo('url')?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" alt="AdsYolo Short Logo"></a>
+                                    <a href="<?php bloginfo('url') ?>" title="AdsYolo" rel="company"><img style="max-width: 46px;" class='d-inline-f' src="<?php bloginfo('url')?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" alt="AdsYolo Short Logo"></a>
                                 </li>
                                 <?php dynamic_sidebar("Footer"); ?>
                             </ul>
@@ -112,9 +113,10 @@
         <!-- Check for Zepto support, load jQuery if necessary -->
         <script>
             document.write('<script src=<?php echo get_template_directory_uri(); ?>/javascripts/vendor/'
-                + ('__proto__' in {} ? 'zepto' : 'jquery')
-                + '.js><\/script>');
-            </script>
+            + ('__proto__' in {} ? 'zepto' : 'jquery')
+            + '.js><\/script>');
+        </script>
+        
             <?php wp_footer(); ?>
         </body>
     </html>

@@ -205,18 +205,18 @@ endif;
 if (!function_exists('narga_entry_meta')) :  
     function narga_entry_meta() {
         echo '<p class="post-meta-data">';
-        if (comments_open()) :
-            echo ' <span class="entry-comments right">';
-        comments_popup_link( __( 'No comment', 'narga' ), __( '1 comment', 'narga'),  __( '% comments', 'narga' ),  __( 'comments-link', 'narga' ),  __( 'Comments are off for this post', 'narga' ));
-        echo '</span>';
-        endif;
-        echo '<a href="' . get_permalink() . '" title="' . get_the_time() . '" rel="bookmark"><time class="updated" datetime="'. get_the_time('c') .'">'. sprintf(__('%s', 'narga'), get_the_time('M jS, Y'), get_the_time()) .'</time></a>';
-        if (false === get_post_format()) {
-            echo __(' in ', 'narga') .'<span class="entry-categories">' . get_the_category_list( ', ' ) . '</span> <span class="byline author">' . __(' by ', 'narga') . '<a href="'. get_author_posts_url(get_the_author_meta('ID')) .'" rel="author" class="fn">'. get_the_author() .'</a></span>';            
-        } else {
-            echo '';
-        }
-        edit_post_link(__('Edit', 'narga'), ' | ', '');
+        // if (comments_open()) :
+        //    echo ' <span class="entry-comments right">';
+        // comments_popup_link( __( 'No comment', 'narga' ), __( '1 comment', 'narga'),  __( '% comments', 'narga' ),  __( 'comments-link', 'narga' ),  __( 'Comments are off for this post', 'narga' ));
+        // echo '</span>';
+        // endif;
+        echo 'Published <a href="' . get_permalink() . '" title="' . get_the_time() . '" rel="bookmark"><time class="updated" datetime="'. get_the_time('c') .'">'. sprintf(__('%s', 'narga'), get_the_time('M jS, Y'), get_the_time()) .'</time></a>';
+        // if (false === get_post_format()) {
+        //     echo __(' in ', 'narga') .'<span class="entry-categories">' . get_the_category_list( ', ' ) . '</span> <span class="byline author">' . __(' by ', 'narga') . '<a href="'. get_author_posts_url(get_the_author_meta('ID')) .'" rel="author" class="fn">'. get_the_author() .'</a></span>';            
+        // } else {
+        //     echo '';
+        // }
+        // edit_post_link(__('Edit', 'narga'), ' | ', '');
         echo '</p>';
     }
 endif;
@@ -413,6 +413,11 @@ add_action('admin_menu', 'narga_add_theme_menu');
 function narga_add_theme_menu() {
     add_theme_page('NARGA Customizer', 'NARGA', 'edit_theme_options', '../wp-admin/customize.php', '');
 }
+
+function custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 
 ?>

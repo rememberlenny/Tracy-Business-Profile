@@ -50,6 +50,8 @@
 .page-template-templatescontact-page-php .highlight-title{background-color:rgba(42,13,85,0.2);}
 .page-template-templatesblog-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
 .page-template-templatesblog-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/guy-pic1.jpg") bottom center repeat-x;}
+.single-post #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
+.single-post #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/guy-pic1.jpg") bottom center repeat-x;}
 .page-template-templatesdeveloper-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-brown.png");}
 .page-template-templatesdeveloper-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/advertisers1.jpg") bottom center repeat-x;}
 .page-template-templatesadvertiser-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-orange.png");}
