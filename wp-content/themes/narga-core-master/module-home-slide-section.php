@@ -3,9 +3,9 @@
       <div class="" style="">
         <div class="row hide-for-small" style="margin-top: .4em;">
           <ul class="large-block-grid-3 slider-head-link pt1em">
-            <li class="pb0em"><a href="#" data-orbit-link="headline-2" class="slide-1 column text-center slider-titles"><p class="mb0em">China Experts</p></a></li>
-            <li class="pb0em"><a href="#" data-orbit-link="headline-3" class="slide-2 column text-center slider-titles"><p class="mb0em">Thriving Ad Network</p></a></li>
-            <li class="pb0em"><a href="#" data-orbit-link="headline-4" class="slide-3 column text-center slider-titles"><p class="mb0em">Rich Analytics</p></a></li>
+            <li class="pb0em"><a href="#" data-orbit-link="headline-2" class="slide-1 column text-center slider-titles"><p class="mb0em fw100">China Experts</p></a></li>
+            <li class="pb0em"><a href="#" data-orbit-link="headline-3" class="slide-2 column text-center slider-titles"><p class="mb0em fw100">Thriving Ad Network</p></a></li>
+            <li class="pb0em"><a href="#" data-orbit-link="headline-4" class="slide-3 column text-center slider-titles"><p class="mb0em fw100">Rich Analytics</p></a></li>
           </ul>
         </div>
 

@@ -36,7 +36,7 @@
 <?php endwhile; // End the loop ?>
 
 
-<?php get_template_part( 'module-call-to-action-bar'); ?>
+<?php // get_template_part( 'module-call-to-action-bar'); ?>
 
 <?php get_template_part( 'module-page-snip'); ?>
 
