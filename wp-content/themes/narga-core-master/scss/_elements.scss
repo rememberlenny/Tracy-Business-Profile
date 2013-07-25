@@ -3,7 +3,6 @@
 //
 // Elements
 //
-
 a{
   @include transition(all, .2s);
   &:hover{
@@ -11,17 +10,32 @@ a{
     @include transition(all, .2s);
   }
 }
-.d-inline-c{
-  display: inline !important;
+body{
+  overflow-x: hidden;
+  background: white;
 }
-.pt1p5em{
-  padding-top:1.5em !important;
+ul, li, ol{
+  list-style:none;
+}
+ul.disc li{
+  list-style:disc;
+}
+ul.circle li{
+  list-style:circle;
+}
+.clear{
+  clear:both;
+}
+label {
+  font-size: 0.875em;
+  color: #4d4d4d;
+  cursor: pointer;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 1.1875em;
 }
 .fs08em{
   font-size: .8em;
-}
-.greyd{
-  color: #ddd !important;
 }
 .fs07em{
   font-size: .7em!important;
@@ -47,30 +61,6 @@ a{
 }
 .ml0em{
   margin-left: 0em!important;
-}
-body{
-  overflow-x: hidden;
-  background: white;
-}
-ul, li, ol{
-  list-style:none;
-}
-ul.disc li{
-  list-style:disc;
-}
-ul.circle li{
-  list-style:circle;
-}
-.clear{
-  clear:both;
-}
-label {
-  font-size: 0.875em;
-  color: #4d4d4d;
-  cursor: pointer;
-  display: block;
-  font-weight: 500;
-  margin-bottom: 1.1875em;
 }
 .button{
   font-weight: 500 !important;
@@ -207,4 +197,6 @@ label {
   .mr1p5em{
     margin-right: 1.5em;
   }
-
+  .testest{
+    font-size: 12px;
+  }
