@@ -84,17 +84,17 @@
                           <li style="display: block;
 height: 50px;
 width: 50px;
-background: url('<?php bloginfo('template_url')?>/images/social.png) no-repeat center 0;
+background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0;
 }"></li>
 <li style="display: block;
 height: 50px;
 width: 50px;
-background: url('<?php bloginfo('template_url')?>/images/social.png) no-repeat top 0;
+background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat top 0;
 }"></li>
 <li style="display: block;
 height: 50px;
 width: 50px;
-background: url('<?php bloginfo('template_url')?>/images/social.png) no-repeat bottom 0;
+background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat bottom 0;
 }"></li>
                         </ul>
                     </div>
