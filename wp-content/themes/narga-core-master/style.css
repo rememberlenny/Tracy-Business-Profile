@@ -799,10 +799,13 @@ h2.fs3p25 {
   font-size: 12px;
 }
 
-.home #site-header.background-image {
-  background: url("http://adsyolo.com/staging/wp-content/uploads/2013/07/slide31.jpg") center center;
-}
-
+/*.home{
+  #site-header{
+    &.background-image{
+      background:url('http://adsyolo.com/staging/wp-content/uploads/2013/07/slide31.jpg') center center;
+    }
+  }
+}*/
 #site-header.background-image {
   position: absolute;
   height: 600px;
@@ -1073,12 +1076,17 @@ em, i {
   color: #ccc;
 }
 
-.background-foot {
-  background: url("http://adsyolo:4421/wp-content/uploads/2013/07/tweed.png");
+#menu-footer li {
+  display: inline-block;
+  float: left;
+  margin-left: .8em;
+}
+#menu-footer li:first-child {
+  magin-left: 0em;
 }
 
-.background-foot-dk {
-  background: url("http://adsyolo:4421/wp-content/uploads/2013/07/tweed-dk.png");
+#nav_menu-3 {
+  margin-left: 0em;
 }
 
 .pricing-table .orbit-prev {
@@ -2321,50 +2329,58 @@ footer .sub-menu {
     box-shadow: inset 0px 0px 50px #000;
   }
 
-  .page-template-templatesabout-page-php #hero-intro-prehead {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-yellow.png");
-  }
-  .page-template-templatesabout-page-php #hero-intro {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/about-us.jpg") bottom center repeat-x;
-  }
-
-  .page-template-templateschina-page-php #hero-intro-prehead {
-    background: url("http://adsyolo:4421/wp-content/uploads/2013/06/pattern-yellow.png");
-  }
-  .page-template-templateschina-page-php #hero-intro {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/china.jpg") bottom center repeat-x;
-  }
-
-  .page-template-templatescontact-page-php #hero-intro-prehead {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-purple.png");
-  }
-  .page-template-templatescontact-page-php #hero-intro {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/hands-1.jpg") bottom center repeat-x;
-  }
-  .page-template-templatescontact-page-php .highlight-title {
-    background-color: rgba(42, 13, 85, 0.2);
-  }
-
-  .page-template-templatesblog-page-php #hero-intro-prehead {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-blue.png");
-  }
-  .page-template-templatesblog-page-php #hero-intro {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/guy-pic1.jpg") bottom center repeat-x;
-  }
-
-  .page-template-templatesdeveloper-page-php #hero-intro-prehead {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-brown.png");
-  }
-  .page-template-templatesdeveloper-page-php #hero-intro {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/advertisers1.jpg") bottom center repeat-x;
-  }
-
-  .page-template-templatesadvertiser-page-php #hero-intro-prehead {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-orange.png");
-  }
-  .page-template-templatesadvertiser-page-php #hero-intro {
-    background: url("http://adsyolo.com/staging/wp-content/uploads/2013/06/pic-1.jpg") bottom center repeat-x;
-  }
+  /*.page-template-templatesabout-page-php{
+    #hero-intro-prehead{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-yellow.png');
+    }
+    #hero-intro{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/about-us.jpg') bottom center repeat-x;
+    }
+    
+  }  
+  .page-template-templateschina-page-php{
+    #hero-intro-prehead{
+      background: url('http://adsyolo:4421/wp-content/uploads/2013/06/pattern-yellow.png');
+    }
+    #hero-intro{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/china.jpg') bottom center repeat-x;
+    }
+  }  
+  .page-template-templatescontact-page-php{
+    #hero-intro-prehead{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-purple.png');
+    }
+    #hero-intro{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/hands-1.jpg') bottom center repeat-x;
+    }
+    .highlight-title{
+      background-color: rgba(42, 13, 85, .2);
+    }
+  }  
+  .page-template-templatesblog-page-php{
+    #hero-intro-prehead{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-blue.png');
+    }
+    #hero-intro{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/guy-pic1.jpg') bottom center repeat-x;
+    }
+  }  
+  .page-template-templatesdeveloper-page-php{
+    #hero-intro-prehead{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-brown.png');
+    }
+    #hero-intro{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/advertisers1.jpg') bottom center repeat-x;
+    }
+  }  
+  .page-template-templatesadvertiser-page-php{
+    #hero-intro-prehead{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/pattern-orange.png');
+    }
+    #hero-intro{
+      background: url('http://adsyolo.com/staging/wp-content/uploads/2013/06/pic-1.jpg') bottom center repeat-x;
+    }
+  }*/
 }
 @media only screen and (min-width: 58.75em) {
   .home .top-bar-section li a:not(.button),

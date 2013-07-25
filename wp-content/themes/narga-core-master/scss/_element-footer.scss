@@ -16,9 +16,16 @@
     }
   }
 }
-.background-foot{
-  background:url('http://adsyolo:4421/wp-content/uploads/2013/07/tweed.png');
+#menu-footer{
+  li{
+    display: inline-block;
+    float:left;
+    margin-left: .8em;
+    &:first-child{
+      magin-left: 0em;
+    }
+  }
 }
-.background-foot-dk{
-  background:url('http://adsyolo:4421/wp-content/uploads/2013/07/tweed-dk.png');
+#nav_menu-3{
+  margin-left: 0em;
 }

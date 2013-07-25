@@ -40,6 +40,25 @@
     <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/images/devices/narga-icon-retina.png" />
     <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/devices/narga-icon.png" />
     <?php wp_head(); ?>
+    <style>
+        .page-template-templatesabout-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-yellow.png");}
+.page-template-templatesabout-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/about-us.jpg") bottom center repeat-x;}
+.page-template-templateschina-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-yellow.png");}
+.page-template-templateschina-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/china.jpg") bottom center repeat-x;}
+.page-template-templatescontact-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-purple.png");}
+.page-template-templatescontact-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/hands-1.jpg") bottom center repeat-x;}
+.page-template-templatescontact-page-php .highlight-title{background-color:rgba(42,13,85,0.2);}
+.page-template-templatesblog-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
+.page-template-templatesblog-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/guy-pic1.jpg") bottom center repeat-x;}
+.page-template-templatesdeveloper-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-brown.png");}
+.page-template-templatesdeveloper-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/advertisers1.jpg") bottom center repeat-x;}
+.page-template-templatesadvertiser-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-orange.png");}
+.page-template-templatesadvertiser-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pic-1.jpg") bottom center repeat-x;} 
+.background-foot{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed.png');}
+.background-foot-dk{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed-dk.png');} 
+.home #site-header.background-image {
+  background: url("<?php bloginfo('url')?>/wp-content/uploads/2013/07/slide31.jpg") center center; }
+    </style>
 </head>
 <body <?php body_class(); ?>>
 
