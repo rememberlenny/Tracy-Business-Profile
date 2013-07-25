@@ -29,7 +29,7 @@
       
     </div>
     <div class="large-4 column">
-      <?php get_template_part('module-email-contents'); ?>
+
     </div>
     <div class="large-4 column">
       <?php get_template_part('module-top-app'); ?>

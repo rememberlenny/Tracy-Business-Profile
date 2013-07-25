@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name:     Acquinity Interactive
 Description:    Responsive WordPress theme coded by Leonard Bogdonoff. For emergency support, contact me at LKBGIFT@Gmail.com or 949-322-8496
@@ -767,6 +768,10 @@ h2.fs3p25 {
   position: absolute;
   top: 9em;
   right: 0%;
+}
+
+.bl1px {
+  border-left: 1px solid #999;
 }
 
 .white {
@@ -1845,6 +1850,10 @@ h2.fs3p25 {
   position: absolute;
   top: 9em;
   right: 0%;
+}
+
+.bl1px {
+  border-left: 1px solid #999;
 }
 
 .white {
