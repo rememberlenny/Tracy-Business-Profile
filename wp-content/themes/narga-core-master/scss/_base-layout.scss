@@ -10,17 +10,25 @@
     float: right !important;
   }
   .hero-image-overlay{
-    margin-bottom: 10em !important;
+    margin-bottom: 0em !important;
   }
   #home .hero-image-overlay{
     margin-bottom: 0em !important;
   }
-  .height-bg-image{
-    min-height: 416px;
+  .home{
+    .height-bg-image{
+      min-height: 416px;
+    }
+    .slider-height{
+      height: 440px;
+    }
   }
-  .slider-height{
-    height: 440px;
-  }
+    .height-bg-image{
+      min-height: 216px;
+    }
+    .slider-height{
+      height: 216px;
+    }
   .ab-right{
     right: 0%;
   }
