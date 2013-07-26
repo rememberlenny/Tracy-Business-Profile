@@ -87,35 +87,48 @@
                             </ul>
                           </li>
                         </ul>
-                        <ul class="inline-list fr" style="margin-top: 10px;">
-                          <li style="display: block;
-                            height: 50px;
-                            width: 50px;
-                            background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0;
-                            }"></li>
+                        <ul class="inline-list fr social-links" style="margin-top: 10px;">
+                          <a class="d-inline" href="https://www.facebook.com/AdsYolo">
+                            <li style="display: block;
+                              height: 50px;
+                              width: 50px;
+                              background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0;
+                              }">
+                            </li>
+                            
+                          </a>
+                          <a class="d-inline" href="http://twitter.com/adsyolo">
                             <li style="display: block;
                             height: 50px;
                             width: 50px;
                             background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0; background-position: center -200px;
-
                             }"></li>
-                            <li style="display: block;
-                            height: 50px;
-                            width: 50px;
-                            background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0; background-position: center -400px;
-
-                            }"></li>
+                          </a>
+                            <a class="d-inline" href="http://www.linkedin.com/company/adsyolo-inc-">
+                              <li style="display: block;
+                              height: 50px;
+                              width: 50px;
+                              background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0; background-position: center -400px;
+                              }"></li>
+                            </a>
+                            <a class="d-inline" href="https://plus.google.com/u/0/b/108865041589263598844/108865041589263598844/posts">
+                              <li style="display: block;
+                              height: 50px;
+                              width: 50px;
+                              background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0; background-position: center -600px;
+                              }"></li>
+                            </a>
                         </ul>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- Check for Zepto support, load jQuery if necessary -->
-        // <script>
-        //     document.write('<script src=<?php echo get_template_directory_uri(); ?>/javascripts/vendor/'
-        //     + ('__proto__' in {} ? 'zepto' : 'jquery')
-        //     + '.js><\/script>');
-        // </script>
+        <script>
+            document.write('<script src=<?php echo get_template_directory_uri(); ?>/javascripts/vendor/'
+            + ('__proto__' in {} ? 'zepto' : 'jquery')
+            + '.js><\/script>');
+        </script>
         
             <?php wp_footer(); ?>
         </body>

@@ -3,3 +3,10 @@ footer{
     display: none !important;
   }
 }
+.social-links{
+  a{
+    &:hover{
+      opacity: .8;
+    }
+  }
+}
