@@ -9,7 +9,7 @@
           </ul>
         </div>
 
-        <div class="panel panel-contexts-case slideshow-wrapper">
+        <div class="panel-contexts-case slideshow-wrapper">
           <ul data-orbit data-options="bullets:true; navigation_arrows: false;  variable_height: true; timer: false; slide_number: false; timer_speed: 10000;">
             <li data-orbit-slide="headline-1">
                 <div class="row">
