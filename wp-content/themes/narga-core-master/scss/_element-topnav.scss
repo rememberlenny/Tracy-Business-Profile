@@ -21,7 +21,7 @@
           color: white;
         }
       .sub-menu.dropdown{
-        height: auto !important;
+        /*height: auto !important;*/
       } 
     }
   }
@@ -32,6 +32,11 @@
   }
 }
 @media only screen and (min-width: 58.75em) {
+  .home{
+    .top-bar-section li a:not(.button), .contain-to-grid, .top-bar, .top-bar-section ul, .top-bar-section li a:not(.button):hover, .top-bar-section ul li.active>a {
+      background: transparent  !important;
+    }
+  }
   .contain-to-grid{
     padding-top:    1.75em;
     padding-bottom: 1.25em;
@@ -46,7 +51,7 @@
   .top-bar-section ul,
   .top-bar-section li a:not(.button):hover,
   .top-bar-section ul li.active>a {
-    background: none !important;
+    background: white !important;
   }
   .divider{
     display: none;
@@ -60,10 +65,16 @@
   }
 
   // start remove top-bar dropdown
-
+  .home{/**/ 
     .top-bar-section .has-dropdown {
-        position: relative
+      a{
+        color: rgba(255,255,255,0.8) !important;
+        &:hover{
+          color: #e07779 !important;
+        }
+      }
     }
+  }
 
     .top-bar-section .has-dropdown>a:after {
         content: "";
@@ -80,7 +91,7 @@
         right: 0;
     }
 
-    .top-bar-section .has-dropdown.moved {
+    /*.top-bar-section .has-dropdown.moved {
         position: static
     }
 
@@ -95,12 +106,13 @@
         visibility: hidden;
         z-index: 99
     }
-
-    .top-bar-section .dropdown li {
+*/
+    .top-bar-section .dropdown li a{
         width: 100%;
-        height: auto
+        padding-top: .5em !important;
+        padding-bottom: .5em !important;
     }
-
+/*
     .top-bar-section .dropdown li a {
         font-weight: normal;
         padding: 0px 0px !important;
@@ -123,22 +135,25 @@
         color: transparent !importants;
         font-weight: bold;
         font-size: 0em;
-    }
+    }*/
 
   // !end dropdown icon fix.
 
   // start hide dropdown items on full-screen
-  .sub-menu{ 
+/*  .sub-menu{ 
     &.dropdown{
       display: none !important;
     }
-  }
+  }*/
   // end hide dropdown items on full-screen
 
-  .has-dropdown.active{
+  .has-dropdown{
     a{
       color: #777 !important;
     }
   }
 }
 
+.js-generated{
+
+}

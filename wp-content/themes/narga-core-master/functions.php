@@ -415,9 +415,15 @@ function narga_add_theme_menu() {
 }
 
 function custom_excerpt_length( $length ) {
-    return 20;
+    return 30;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+// Replaces the excerpt "more" text by a link
+function new_excerpt_more($more) {
+       global $post;
+    return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Read the article...</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 
 ?>

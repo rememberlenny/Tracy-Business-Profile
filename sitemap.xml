@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://adsyolo:4421/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.5.2" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.9" -->
-<!-- generated-on="July 26, 2013 3:28 pm" -->
+<!-- generated-on="July 26, 2013 7:00 pm" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://adsyolo:4421/</loc>
-		<lastmod>2013-07-24T17:10:38+00:00</lastmod>
+		<lastmod>2013-07-26T18:35:02+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://adsyolo:4421/advertisers/</loc>
+		<lastmod>2013-07-26T18:36:04+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://adsyolo:4421/services/branding-in-china/</loc>
+		<lastmod>2013-07-26T16:21:38+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://adsyolo:4421/services/</loc>
+		<lastmod>2013-07-26T16:21:05+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>http://adsyolo:4421/who-we-are/team/</loc>
@@ -58,12 +76,6 @@
 	<url>
 		<loc>http://adsyolo:4421/app-monetization-platform/</loc>
 		<lastmod>2013-07-25T18:25:28+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://adsyolo:4421/advertisers/</loc>
-		<lastmod>2013-07-25T18:19:53+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
@@ -144,12 +156,6 @@
 		<lastmod>2013-07-25T04:23:31+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://adsyolo:4421/services/</loc>
-		<lastmod>2013-07-24T17:10:44+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>http://adsyolo:4421/the-china-market/</loc>

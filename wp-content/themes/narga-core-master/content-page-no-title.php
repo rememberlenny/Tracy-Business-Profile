@@ -12,11 +12,11 @@
 
 <?php get_template_part( 'module-home-slide-section'); ?>
   
-  <div class="row">
+  <div class="row fixer-do">
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <section class="entry-content">
           <div class="large-8 column large-centered mt3em">
-            <div class="column mt3em">
+            <div class="column pb1em mb1em" style="box-shadow: 0px 5px 10px -10px;">
               <?php the_content(); ?>
             </div>
           </div>
@@ -24,24 +24,43 @@
         </section>
     </article>  
   </div>
+<?php endwhile; // End the loop ?>
   <div class="row">
+    <div class="large-12 column large-centered">
+        <div class="row">
+          <div class="large-3 column">
+            
+          </div>
+          <div class="large-3 column">
+            
+          </div>
+          <div class="large-3 column">
+            
+          </div>
+          <div class="large-3 column">
+            
+          </div>
+        </div>
+      <?php get_template_part( 'module-case-study-down'); ?>
+    </div>
+
+  </div>  
+  <div class="row">
+    <div class="large-8 column">
+      
+      <?php get_template_part( 'module-blog-snip-single'); ?>
+    </div>
     <div class="large-4 column">
+      <?php get_template_part('module-featured-article'); ?>
       
     </div>
-    <div class="large-4 column">
 
-    </div>
-    <div class="large-4 column">
-      <?php get_template_part('module-top-app'); ?>
-
-    </div>
   </div>
-<?php endwhile; // End the loop ?>
 
 
 <?php // get_template_part( 'module-page-snip'); ?>
 
-<?php get_template_part( 'module-blog-snip'); ?>
+
 
 
 <!-- blog insert -->

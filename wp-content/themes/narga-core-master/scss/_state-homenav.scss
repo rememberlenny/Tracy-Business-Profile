@@ -6,10 +6,9 @@
     .top-bar-section ul,
     .top-bar-section li a:not(.button):hover,
     .top-bar-section ul li.active>a {
-      color: rgba(255,255,255,.8) !important;
+      color: rgba(255,255,255,.8);
     }
     .sub-menu.dropdown{
-      display: none !important;
     }
     .title-area{
       h1{

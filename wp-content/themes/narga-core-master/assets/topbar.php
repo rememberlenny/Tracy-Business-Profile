@@ -93,6 +93,7 @@ class NargaTopbarWalker extends Walker_Nav_Menu {
     }
 }
 
+
 # Function to render Top Bar
 if (!function_exists('narga_topbar')) :  
     function narga_topbar() {

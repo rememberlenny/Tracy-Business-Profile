@@ -111,11 +111,11 @@
             </div>
         </footer>
         <!-- Check for Zepto support, load jQuery if necessary -->
-        <script>
-            document.write('<script src=<?php echo get_template_directory_uri(); ?>/javascripts/vendor/'
-            + ('__proto__' in {} ? 'zepto' : 'jquery')
-            + '.js><\/script>');
-        </script>
+        // <script>
+        //     document.write('<script src=<?php echo get_template_directory_uri(); ?>/javascripts/vendor/'
+        //     + ('__proto__' in {} ? 'zepto' : 'jquery')
+        //     + '.js><\/script>');
+        // </script>
         
             <?php wp_footer(); ?>
         </body>
