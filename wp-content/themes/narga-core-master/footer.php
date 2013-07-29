@@ -20,7 +20,7 @@
             <div class="zigzap" style="height:50px; background-repeat: repeat-x; background:url('<?php bloginfo('url')?>/wp-content/uploads/2013/07/zigzap.png');"></div>
             <div class="background-foot">
                 <div class="row">
-                    <div class="large-10 large-centered pt1p3em pb1em text-center columns" style="">
+                    <div class="large-10 large-centered pb1em text-center columns" style="">
                         <?php get_template_part('module-email-contents'); ?>
                     </div>
                 </div>
