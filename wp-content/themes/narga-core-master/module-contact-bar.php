@@ -13,7 +13,8 @@
           <p class="address third-color" ref="address">
             175 Varick Street, 3rd FL.<br>
             New York, NY 10014<br>
-            United States
+            United States <br>
+            <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
           </p>
           <p class="phone-number fs14em third-color">(888) 806-9656</p>
         </div>
@@ -21,7 +22,8 @@
           <h4 class="third-color">China</h4>
           <p class="address third-color" ref="address">
             Haidian District Karma Cubic Court Street Building 2-312 <br>
-            Beijing, China
+            Beijing, China <br>
+            <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
           </p>
           <p class="phone-number fs14em third-color">+400-6088-215</p>
         </div>
@@ -30,7 +32,8 @@
           <p class="address third-color" ref="address">
             49 Southwark ST <br> 
             London, SE1 1RU <br>
-            United Kingdom
+            United Kingdom <br>
+            <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
           </p>
           <p class="phone-number fs14em third-color">+44 020-8144-3164</p>
         </div>

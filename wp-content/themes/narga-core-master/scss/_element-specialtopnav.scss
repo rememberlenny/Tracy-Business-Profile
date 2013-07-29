@@ -5,6 +5,10 @@
 }
 
 #topSpecialNav{
+a{
+margin-top: 2.4em;
+    color: white !important;}
+    
   position: absolute;
   top: 0%;
   margin-top: 1em;
@@ -18,8 +22,8 @@
   margin-top: -82px;
 }
 .home #topSpecialNav{
-  background: rgba(55,55,55,.6) !important;
   a{
+    margin-top: 2.4em;
     color: white !important;
   }
   &>*,

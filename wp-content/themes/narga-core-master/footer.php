@@ -17,7 +17,7 @@
 
         <!-- Footer area -->
         <footer class="large-12" role="contentinfo">
-            <div class="zigzap" style="height:26px; background-repeat: repeat-x; background:url('<?php bloginfo('url')?>/wp-content/uploads/2013/07/zigzap.png');"></div>
+            <div class="zigzap" style="height:50px; background-repeat: repeat-x; background:url('<?php bloginfo('url')?>/wp-content/uploads/2013/07/zigzap.png');"></div>
             <div class="background-foot">
                 <div class="row">
                     <div class="large-10 large-centered pt1p3em pb1em text-center columns" style="">
@@ -43,7 +43,8 @@
                         <p class="address white fs07em" ref="address" style="opacity:.8">
                           175 Varick Street, 3rd FL.<br>
                           New York, NY 10014<br>
-                          United States
+                          United States <br>
+                          <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
                         </p>
                         <p class="phone-number fs07em fs14em white" style="opacity:.8">(888) 806-9656</p>
                       </div>
@@ -51,7 +52,8 @@
                         <h5 class="greyd white fw100">China</h5>
                         <p class="address white fs07em" ref="address" style="opacity:.8">
                           Haidian District Karma Cubic Court Street Building 2-312 <br>
-                          Beijing, China
+                          Beijing, China <br>
+                          <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
                         </p>
                         <p class="phone-number fs07em fs14em white" style="opacity:.8">+400-6088-215</p>
                       </div>
@@ -60,7 +62,8 @@
                         <p class="address white fs07em" ref="address" style="opacity:.8">
                           49 Southwark ST <br> 
                           London, SE1 1RU <br>
-                          United Kingdom
+                          United Kingdom <br>
+                          <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
                         </p>
                         <p class="phone-number fs07em fs14em white" style="opacity:.8">+44 020-8144-3164</p>
                       </div>
@@ -87,35 +90,35 @@
                             </ul>
                           </li>
                         </ul>
-                        <ul class="inline-list fr social-links" style="margin-top: 10px;">
+                        <ul class="inline-list fr social-links" style="margin-top: 19px;">
                           <a class="d-inline" href="https://www.facebook.com/AdsYolo">
                             <li style="display: block;
-                              height: 50px;
-                              width: 50px;
-                              background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0;
+                              height: 30px;
+                              width: 30px;
+                              background: url('<?php bloginfo('template_url')?>/images/social-f.png') no-repeat center 0;
                               }">
                             </li>
                             
                           </a>
                           <a class="d-inline" href="http://twitter.com/adsyolo">
                             <li style="display: block;
-                            height: 50px;
-                            width: 50px;
-                            background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0; background-position: center -200px;
+                            height: 30px;
+                            width: 30px;
+                            background: url('<?php bloginfo('template_url')?>/images/social-t.png') no-repeat center 0; background-position: center center;
                             }"></li>
                           </a>
                             <a class="d-inline" href="http://www.linkedin.com/company/adsyolo-inc-">
                               <li style="display: block;
-                              height: 50px;
-                              width: 50px;
-                              background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0; background-position: center -400px;
+                              height: 30px;
+                              width: 30px;
+                              background: url('<?php bloginfo('template_url')?>/images/social-l.png') no-repeat center 0; background-position: center center;
                               }"></li>
                             </a>
                             <a class="d-inline" href="https://plus.google.com/u/0/b/108865041589263598844/108865041589263598844/posts">
                               <li style="display: block;
-                              height: 50px;
-                              width: 50px;
-                              background: url('<?php bloginfo('template_url')?>/images/social.png') no-repeat center 0; background-position: center -600px;
+                              height: 30px;
+                              width: 30px;
+                              background: url('<?php bloginfo('template_url')?>/images/social-g.png') no-repeat center 0; background-position: center center;
                               }"></li>
                             </a>
                         </ul>

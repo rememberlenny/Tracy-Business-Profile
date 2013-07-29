@@ -27,23 +27,24 @@
 <?php endwhile; // End the loop ?>
   <div class="row">
     <div class="large-12 column large-centered">
-        <div class="row">
-          <div class="large-3 column">
-            
+        <div class="row mt2em">
+          <div class="large-6 column">
+            <ul class="large-block-grid-2">
+              <li><h4 class="text-right">App Developers and Publishers</h4></li>
+              <li><p class="">Leverage and join our network, recognize immediate revenue. </p><a class="button small" href="<?php bloginfo('url') ?>/app-monetization-platform">Read more</a></li>
+            </ul>
           </div>
-          <div class="large-3 column">
-            
+          <div class="large-6 column">
+            <ul class="large-block-grid-2">
+              <li><h4 class="text-right">Brand advertisers and marketers</h4></li>
+              <li><p class="">Deliver your campaigns to the world's fastest-growing smartphone population. </p><a class="button small" href="<?php bloginfo('url') ?>/services">Read more</a></li>
+            </ul>
           </div>
-          <div class="large-3 column">
-            
-          </div>
-          <div class="large-3 column">
-            
-          </div>
+          <hr>
         </div>
       <?php get_template_part( 'module-case-study-down'); ?>
     </div>
-
+  
   </div>  
   <div class="row">
     <div class="large-8 column">

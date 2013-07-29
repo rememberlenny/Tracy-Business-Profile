@@ -47,7 +47,6 @@
 .page-template-templateschina-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/china.jpg") top center repeat-x;}
 .page-template-templatescontact-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-purple.png");}
 .page-template-templatescontact-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/hands-1.jpg") top center repeat-x;}
-.page-template-templatescontact-page-php .highlight-title{background-color:rgba(42,13,85,0.2);}
 .page-template-templatesblog-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
 .page-template-templatesblog-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/guy-pic1.jpg") top center repeat-x;}
 .single-post #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
@@ -56,6 +55,8 @@
 .page-template-templatesdeveloper-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/advertisers1.jpg") top center repeat-x;}
 .page-template-templatesadvertiser-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-orange.png");}
 .page-template-templatesadvertiser-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pic-1.jpg") bottom center repeat-x;} 
+.page-template-templatesservices-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/arches.png");}
+.page-template-templatesservices-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/Services.jpg") bottom center repeat-x;} 
 .background-foot{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed.png');}
 .background-foot-dk{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed-dk.png');} 
 .home #site-header.background-image {
@@ -78,20 +79,15 @@
     ?>
 
     <?php $urlLogin = site_url('/login/', 'http'); ?>
-    <?php echo '<div id="topSpecialNav" class="text-right ab-right right special-top-right-nav">'; ?> 
-    <?php echo '<div class="d-inline" style="font-size: 11px;">'; ?> 
-    <?php   if ( is_user_logged_in() ) {
-            echo 'Welcome, '. $atriangleOutputName .'!';
-            } else {
-                echo '<a href="'. $urlLogin .'">Login</a>';
-            }?>
-    <?php echo '</div>'; ?>
+    <?php echo '<div id="topSpecialNav" class="text-right ab-right right ">'; ?> 
+    <?php echo '<a href="https://mrp.adsyolo.com/iamp/adsyolo/iamp/adsyolo/signup" class="button round small">AMP sign-up</a>    '; ?>
+    <?php // echo '<div class="d-inline">'; ?>
     <?php // echo '<div class="d-inline">'; ?>
     <?php // do_action('icl_language_selector'); ?>
     <?php // echo '</div>'; ?>
     <?php echo '</div>'; ?>
     <!-- Main content area -->
-
+    
     <div id="main-container" class="large-12 ">
         <div id="hero-intro-container" class="">
             <div id="hero-intro-prehead" class="large-12 d-inline"></div>

@@ -1,64 +1,21 @@
 <div class="large-10 mt2em large-offset-1">
     <div class="large-12 column teal-bg slider-height" >
       <div class="" style="">
-        <div class="row hide-for-small" style="margin-top: .4em;">
-          <ul class="large-block-grid-3 slider-head-link pt1em">
-            <li class="pb0em"><a href="#" data-orbit-link="headline-2" class="slide-1 column text-center slider-titles"><p class="mb0em fw100">China Experts</p></a></li>
-            <li class="pb0em"><a href="#" data-orbit-link="headline-3" class="slide-2 column text-center slider-titles"><p class="mb0em fw100">Thriving Ad Network</p></a></li>
-            <li class="pb0em"><a href="#" data-orbit-link="headline-4" class="slide-3 column text-center slider-titles"><p class="mb0em fw100">Rich Analytics</p></a></li>
-          </ul>
-        </div>
 
-        <div class="panel-contexts-case slideshow-wrapper">
-          <ul data-orbit data-options="bullets:true; navigation_arrows: false;  variable_height: true; timer: false; slide_number: false; timer_speed: 10000;">
-            <li data-orbit-slide="headline-1">
+        <div class="mt2em panel-contexts-case slideshow-wrapper">
+          <ul>
+            <li >
                 <div class="row">
                   <div class="column">
-                    <div class="large-4 column ">
-                      <img src="<?php bloginfo('url') ?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" style="max-height: 195px">
+                    <div class="large-5 text-right column ">
+                  <h1 style="margin-top: .6em;
+">  AdsYolo</h1>
                     </div>
-                    <div class="large-8 column ">
-                      <h2 class="">Speaks to China. <br><span style="line-height: 1.2em;">对话中国</span></h2>
-                      <a href="<?php bloginfo('url'); ?>/advertisers" class="button medium bold">Learn more.</a>
-                    </div>
-                  </div>
-                </div>
-            </li>
-            <li data-orbit-slide="headline-2">
-                <div class="row">
-                  <div class="column">
-                    <div class="large-4 column ">
-                      <h1 class="mb0em">We are China experts.</h1>                
-                    </div>
-                    <div class="large-8 column pt2em">
-                      <h4 class="">AdsYolo is Chinese mobile fluent.</h4>
-                      <a href="<?php bloginfo('url'); ?>/advertisers" class="button medium bold">Become a customers.</a>
-                    </div>
-                  </div>
-                </div>
-            </li>
-            <li data-orbit-slide="headline-3">
-                <div class="row">
-                  <div class="column">
-                    <div class="large-4 column ">
-                      <h1 class="mb0em">We run a premium network.</h1>                
-                    </div>
-                    <div class="large-8 column pt2em">
-                      <h4 class="">Our AMP network has over 50,000 apps.</h4>
-                      <a href="<?php bloginfo('url'); ?>/advertisers" class="button medium bold">Join the network.</a>
-                    </div>
-                  </div>
-                </div>
-            </li>
-            <li data-orbit-slide="headline-4">
-                <div class="row">
-                  <div class="column">
-                    <div class="large-4 column ">
-                      <h1 class="mb0em">We track the App market.</h1>                
-                    </div>
-                    <div class="large-8 column pt1p6em">
-                      <h4 class="">Delivering 14 billion monthly impressions.</h4>
-                      <a href="<?php bloginfo('url'); ?>/advertisers" class="button medium bold">See our findings.</a>
+                    <div class="large-7 text-left column " style="border-left: 5px solid rgb(255, 255, 255)">
+                      <h2 class="d-inline-f">Speaks to China <br>
+                      对话中国
+                      </h2>
+                      <a style="margin-bottom: 1em;" href="<?php bloginfo('url'); ?>/advertisers" class="d-inline-fd button medium bold">Learn more.</a>
                     </div>
                   </div>
                 </div>

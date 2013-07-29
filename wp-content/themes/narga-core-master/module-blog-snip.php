@@ -1,7 +1,7 @@
 <div class="large-8 column large-centered">
 
     <hr>
-    <h3 class="subheader text-center">Latest News</h3>
+    <h3 class="subheader text-center">News</h3>
 <?php 
           rewind_posts();
           $mypost = array( 'post_type' => 'post', 'posts_per_page' => '2' );
