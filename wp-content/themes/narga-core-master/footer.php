@@ -131,7 +131,6 @@
             document.write('<script src=<?php echo get_template_directory_uri(); ?>/javascripts/vendor/'
             + ('__proto__' in {} ? 'zepto' : 'jquery')
             + '.js><\/script>');
-            $(document).foundation();
         </script>
         
             <?php wp_footer(); ?>
