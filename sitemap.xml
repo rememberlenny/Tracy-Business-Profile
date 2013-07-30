@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://adsyolo:4421/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.5.2" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.9" -->
-<!-- generated-on="July 29, 2013 9:48 pm" -->
+<!-- generated-on="July 29, 2013 10:39 pm" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://adsyolo:4421/</loc>
 		<lastmod>2013-07-29T20:30:13+00:00</lastmod>
@@ -8,14 +8,20 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>http://adsyolo:4421/services/</loc>
-		<lastmod>2013-07-29T21:25:29+00:00</lastmod>
+		<loc>http://adsyolo:4421/advertisers/</loc>
+		<lastmod>2013-07-29T22:38:14+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>http://adsyolo:4421/advertisers/</loc>
-		<lastmod>2013-07-26T18:36:04+00:00</lastmod>
+		<loc>http://adsyolo:4421/advertisers/localization/</loc>
+		<lastmod>2013-07-29T22:37:58+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://adsyolo:4421/services/</loc>
+		<lastmod>2013-07-29T21:25:29+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
@@ -76,12 +82,6 @@
 	<url>
 		<loc>http://adsyolo:4421/app-monetization-platform/</loc>
 		<lastmod>2013-07-25T18:25:28+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>http://adsyolo:4421/advertisers/localizations/</loc>
-		<lastmod>2013-07-25T18:19:40+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
