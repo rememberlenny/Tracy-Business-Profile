@@ -1,7 +1,12 @@
-@media only screen and (min-width: 58.75em) {
+Z@media only screen and (min-width: 58.75em) {
 
   #single-content-wrapper{
     margin-top: 230px;
+  }
+  .entry-content{
+    .column.pb1em.mb1em{
+      background: white;
+    }
   }
 
 }

@@ -78,10 +78,10 @@
                         <ul class="d-inline fl mb0em">
                           <li>
                             <ul class="inline-list" style="margin-bottom:.2em;  opacity: .4">
-                                <li>
-                                    <a href="<?php bloginfo('url') ?>" title="AdsYolo" rel="company"><img style="max-width: 46px;" class='d-inline-f' src="<?php bloginfo('url')?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" alt="AdsYolo Short Logo"></a>
-                                </li>
-                                <?php dynamic_sidebar("Footer"); ?>
+                              <li>
+                                  <a href="<?php bloginfo('url') ?>" title="AdsYolo" rel="company"><img style="max-width: 46px;" class='d-inline-f' src="<?php bloginfo('url')?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" alt="AdsYolo Short Logo"></a>
+                              </li>
+                              <?php dynamic_sidebar("Footer"); ?>
                             </ul>
                           </li>
                           <li>
