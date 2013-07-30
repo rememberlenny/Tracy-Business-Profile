@@ -1,6 +1,7 @@
 <div class="row large-10">
   <div class="large-8 column" style="">
-    <h3 class="white text-left subheader fs1em" style="opacity:.8; font-weight: 100 !important; font-size: .9em!important; margin-top: .8em">Stay on top of China's mobile and advertising market. Sign up to receive our weekly e-letter.</p>
+    <h3 class="white text-left subheader fs1em" style="opacity:.8; font-weight: 400 !important;
+font-size: .8em!important; margin-top: .8em">Stay on top of China's mobile and advertising market. Sign up to receive our weekly e-letter.</p>
   </div>
   <div class="large-4 column pt05em">
   <form action="http://adsyolo.us6.list-manage.com/subscribe/post?u=664675817b&amp;id=4c58b47ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mb0em" target="_blank" novalidate>
