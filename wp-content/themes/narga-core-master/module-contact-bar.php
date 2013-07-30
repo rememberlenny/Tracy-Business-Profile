@@ -11,7 +11,7 @@
         <div class="large-4 column">
           <h4 class="third-color">New York</h4>
           <p class="address third-color" ref="address">
-            175 Varick Street, 3rd FL.<br>
+            175 Varick Street, 5th FL.<br>
             New York, NY 10014<br>
             United States <br>
             <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
