@@ -46,6 +46,8 @@ Customize the output of menus for Foundation top bar classes and add description
 http://www.kriesi.at/archives/improve-your-wordpress-navigation-menu-output
 http://code.hyperspatial.com/1514/twitter-bootstrap-walker-classes/
  */
+
+
 class NargaTopbarWalker extends Walker_Nav_Menu {
     function start_el(&$output, $item, $depth, $args) {
         global $wp_query;
