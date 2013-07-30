@@ -55,8 +55,8 @@
 .page-template-templatesdeveloper-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/advertisers1.jpg") top center repeat-x;}
 .page-template-templatesadvertiser-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-orange.png");}
 .page-template-templatesadvertiser-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pic-1.jpg") bottom center repeat-x;} 
-.page-template-templatesservices-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/arches.png");}
-.page-template-templatesservices-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/Services.jpg") bottom center no-repeat;} 
+.page-template-templatesservices-page-php #hero-intro-prehead{background:none}
+.page-template-templatesservices-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/Services.jpg") top center no-repeat;} 
 .background-foot{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed.png');}
 .background-foot-dk{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed-dk.png');} 
 .home #site-header.background-image { background: url("<?php bloginfo('url')?>/wp-content/uploads/2013/06/slide31.jpg") center center; box-shadow: inset 0px 40px 660px 30px #000; }
