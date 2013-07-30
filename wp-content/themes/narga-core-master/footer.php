@@ -32,7 +32,7 @@
                     <h4 class="white subheader">
                       AdsYolo
                     </h4>
-                    <p class="fs07em greyd fw100" style="color: #ddd">
+                    <p class="fs07em greyd" style="color: #ddd">
                       AdsYolo is a New York and Beijing-based mobile and full-service marketing agency, focused on influencing consumers in China via its leading in-app advertising network.
                     </p>
                   </div>
@@ -74,7 +74,7 @@
             </div>
             <div style="background:#222">
                 <div class="row pt1em">
-                    <div class="large-12 fw100 text-center columns" style="">
+                    <div class="large-12 text-center columns" style="">
                         <ul class="d-inline fl mb0em">
                           <li>
                             <ul class="inline-list" style="margin-bottom:.2em;  opacity: .4">
