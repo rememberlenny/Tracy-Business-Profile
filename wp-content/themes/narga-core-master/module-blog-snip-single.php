@@ -5,7 +5,7 @@
           $mypost = array( 'post_type' => 'post', 'posts_per_page' => '2' );
           $my_query = new WP_Query( $mypost ); ?>
     <?php while ($my_query->have_posts()) :  $my_query->the_post(); ?>
-    <?php get_template_part('cosntent', 'home-post-single') ?>
+    <?php get_template_part('content', 'home-post-single') ?>
     <?php endwhile; // End the loop ?>
     <hr>
     <ul class="text-center large-block-grid-5">
