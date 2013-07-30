@@ -16,7 +16,7 @@
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <section class="entry-content">
           <div class="large-8 column large-centered mt3em">
-            <div class="column pb1em mb1em" style="box-shadow: 0px 5px 10px -10px;">
+            <div class="column pb1em mb1em" style="background: white; box-shadow: 0px 5px 10px -10px;">
               <?php the_content(); ?>
             </div>
           </div>
