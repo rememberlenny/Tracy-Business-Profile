@@ -77,14 +77,14 @@
           $atriangleOutputName = ($atriangleFirst) ? $atriangleFirst : $atriangleUsername;
     ?>
 
-    <?php $urlLogin = site_url('/login/', 'http'); ?>
-    <?php echo '<div id="topSpecialNav" class="text-right ab-right right ">'; ?> 
-    <?php echo '<a href="https://mrp.adsyolo.com/iamp/adsyolo/iamp/adsyolo/signup" class="button round small">AMP sign-up</a>    '; ?>
+    <?php // $urlLogin = site_url('/login/', 'http'); ?>
+    <?php // echo '<div id="topSpecialNav" class="text-right ab-right right ">'; ?> 
+    <?php // echo '<a href="https://mrp.adsyolo.com/iamp/adsyolo/iamp/adsyolo/signup" class="button round small">AMP sign-up</a>    '; ?>
     <?php // echo '<div class="d-inline">'; ?>
     <?php // echo '<div class="d-inline">'; ?>
     <?php // do_action('icl_language_selector'); ?>
     <?php // echo '</div>'; ?>
-    <?php echo '</div>'; ?>
+    <?php // echo '</div>'; ?>
     <!-- Main content area -->
     
     <div id="main-container" class="large-12 ">

@@ -20,7 +20,6 @@
               <?php the_content(); ?>
             </div>
           </div>
-          <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'narga'), 'after' => '</p></nav>' )); ?>
         </section>
     </article>  
   </div>
