@@ -42,27 +42,39 @@
     <?php wp_head(); ?>
     <style>
         .page-template-templatesabout-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-yellow.png");}
-.page-template-templatesabout-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/about-us.jpg") center center repeat-x;}
+.page-template-templatesabout-page-php #hero-intro{background:url("<?php the_field('about_header', 'option'); ?>") center center repeat-x;}
 .page-template-templateschina-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-yellow.png");}
-.page-template-templateschina-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/china.jpg") top center repeat-x;}
+.page-template-templateschina-page-php #hero-intro{background:url("<?php the_field('china_page_header', 'option'); ?>") top center repeat-x;}
 .page-template-templatescontact-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-purple.png");}
-.page-template-templatescontact-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/hands-1.jpg") top center repeat-x;}
+.page-template-templatescontact-page-php #hero-intro{background:url("<?php the_field('contact_header', 'option'); ?>") top center repeat-x;}
 .page-template-templatesblog-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
-.page-template-templatesblog-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/guy-pic1.jpg") top center repeat-x;}
+.blog #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
+.archive #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
+.blog #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
+.page-template-templatesblog-archive-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
+.page-template-templatesblog-page-php #hero-intro{background:url("<?php the_field('blog_header', 'option'); ?>") top center repeat-x;}
+.blog #hero-intro{background:url("<?php the_field('blog_header', 'option'); ?>") top center repeat-x;}
+.archive #hero-intro{background:url("<?php the_field('blog_header', 'option'); ?>") top center repeat-x;}
+.page-template-templatesblog-archive-page-php #hero-intro{background:url("<?php the_field('blog_header', 'option'); ?>") top center repeat-x;}
+.archive #hero-intro{background:url("<?php the_field('blog_header', 'option'); ?>") top center repeat-x;}
 .single-post #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-blue.png");}
-.single-post #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/guy-pic1.jpg") top center repeat-x;}
+.single-post #hero-intro{background:url("<?php the_field('home_header', 'option'); ?>") top center repeat-x;}
 .page-template-templatesdeveloper-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-brown.png");}
-.page-template-templatesdeveloper-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/advertisers1.jpg") top center repeat-x;}
+.page-template-templatesdeveloper-page-php #hero-intro{background:url("<?php the_field('developer_header', 'option'); ?>") top center repeat-x;}
 .page-template-templatesadvertiser-page-php #hero-intro-prehead{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pattern-orange.png");}
-.page-template-templatesadvertiser-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/pic-1.jpg") bottom center repeat-x;} 
+.page-template-templatesadvertiser-page-php #hero-intro{background:url("<?php the_field('advertiser_header', 'option'); ?>") bottom center repeat-x;} 
 .page-template-templatesservices-page-php #hero-intro-prehead{background:none}
-.page-template-templatesservices-page-php #hero-intro{background:url("<?php bloginfo('url') ?>/wp-content/uploads/2013/06/Services.jpg") top center no-repeat;} 
+.page-template-templatesservices-page-php #hero-intro{background:url("<?php the_field('services_header', 'option'); ?>") top center no-repeat;} 
 .background-foot{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed.png');}
 .background-foot-dk{background:url('<?php bloginfo('url') ?>/wp-content/uploads/2013/07/tweed-dk.png');} 
 .home #site-header.background-image { background: url("<?php bloginfo('url')?>/wp-content/uploads/2013/06/slide31.jpg") center center; box-shadow: inset 0px 40px 660px 30px #000; }
-    </style>
+   
+
+ </style>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?>
+
+
 
     <!-- ZURB Foundation Top Bar -->
 

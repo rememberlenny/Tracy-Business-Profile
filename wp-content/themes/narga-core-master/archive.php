@@ -21,7 +21,31 @@
 
 <?php get_header(); ?>
 <!-- Row for main content area -->
-<div id="archive-wrapper" class="large-8 columns" role="content">
+<style>
+#sidebar{
+background:white;
+}
+h2 a{
+font-size: .5em !important;
+text-decoration: underline;
+}
+
+</style>
+    <div id="full-width-wrapper" class="large-12 columns" role="content">
+      <div class="row">
+        <div class="column hide-for-mobile child-page-nav">
+          <?php atri_blog_navigation(); ?>
+        </div>
+      </div>
+<div class="row hero-image-overlay">
+  <div class="column large-10 large-centered mt3em">
+    <div class="column">
+      <h1 style="margin-bottom: 3em !important" class="white d-inline highlight-title">Archive<h1>
+    </div>
+  </div>
+</div>
+
+<div id="archive-wrapper" style="background:white" class="large-8 columns" role="content">
     <?php #Breadcrumb Control
     if (narga_options('breadcrumb') == 1) :
     narga_breadcrumb();
@@ -48,5 +72,8 @@
     </nav>
     <?php } ?>
 </div><!-- End Content row -->
+
+
 <?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

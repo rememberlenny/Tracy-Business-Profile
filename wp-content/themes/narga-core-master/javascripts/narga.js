@@ -7,5 +7,8 @@
 /* <![CDATA[ */
 
 jQuery(document).foundation();
+//jQuery(document).ready(function(){
+//	jQuery('#menu-item-401').click
 
+//});
 /* ]]> */
