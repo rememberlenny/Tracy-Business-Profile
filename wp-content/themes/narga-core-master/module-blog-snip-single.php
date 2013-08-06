@@ -9,22 +9,22 @@
     <?php endwhile; // End the loop ?>
     <hr>
     <ul class="text-center large-block-grid-5">
-      <li><h4 class="text-right">Top Apps <br>of the week</h4></li>
+      <li><h4 class="text-right"><p><?php the_field('top_app:_intro', 'option'); ?></p></h4></li>
+            <li>
+        <img src="<?php the_field('top_app:_1.image', 'option'); ?>" alt="<?php the_field('top_app:_1.title', 'option'); ?>" style="max-width:124px">
+        <p><a style="font-size:.7em;" href="<?php the_field('top_app:_1.url', 'option'); ?>"><?php the_field('top_app:_1.title', 'option'); ?></a></p>
+      </li>      
       <li>
-        <img src="<?php bloginfo('url') ?>/wp-content/uploads/2013/06/supper.png" alt="Supper Defender IV" style="max-width:124px">
-        <p><a style="font-size:.7em;" href="https://play.google.com/store/apps/details?id=com.droidhen.defendersiiii&referrer=utm_source%3Dappbrain%26utm_medium%3Dappbrain_web%26utm_campaign%3Dappbrain_web">Supper Defender</a></p>
-      </li>
+        <img src="<?php the_field('top_app:_2.image', 'option'); ?>" alt="<?php the_field('top_app:_2.title', 'option'); ?>" style="max-width:124px">
+        <p><a style="font-size:.7em;" href="<?php the_field('top_app:_2.url', 'option'); ?>"><?php the_field('top_app:_2.title', 'option'); ?></a></p>
+      </li>      
       <li>
-        <img src="<?php bloginfo('url') ?>/wp-content/uploads/2013/06/driving.png" alt="Driving School" style="max-width:124px">
-        <p><a style="font-size:.7em;" href="https://play.google.com/store/apps/details?id=com.xianqing.driving3d&referrer=utm_source%3Dappbrain%26utm_medium%3Dappbrain_web%26utm_campaign%3Dappbrain_web">Driving School</a></p>
-      </li>
+        <img src="<?php the_field('top_app:_3.image', 'option'); ?>" alt="<?php the_field('top_app:_3.title', 'option'); ?>" style="max-width:124px">
+        <p><a style="font-size:.7em;" href="<?php the_field('top_app:_3.url', 'option'); ?>"><?php the_field('top_app:_3.title', 'option'); ?></a></p>
+      </li>      
       <li>
-        <img src="<?php bloginfo('url') ?>/wp-content/uploads/2013/06/anime.png" alt="Anime Beauty" style="max-width:124px">
-        <p><a style="font-size:.7em;" href="https://play.google.com/store/apps/details?id=com.livewallpaper.livewallpaper.jjhearts">Heart Live</a></p>
-      </li>
-      <li>
-        <img src="<?php bloginfo('url') ?>/wp-content/uploads/2013/06/hider.png" alt="Application Hider" style="max-width:124px">
-        <p><a style="font-size:.7em;" href="https://play.google.com/store/apps/details?id=com.mm.security.androidhider1&referrer=utm_source%3Dappbrain%26utm_medium%3Dappbrain_web%26utm_campaign%3Dappbrain_web">Application Hider</a></p>
+        <img src="<?php the_field('top_app:_4.image', 'option'); ?>" alt="<?php the_field('top_app:_4.title', 'option'); ?>" style="max-width:124px">
+        <p><a style="font-size:.7em;" href="<?php the_field('top_app:_4.url', 'option'); ?>"><?php the_field('top_app:_4.title', 'option'); ?></a></p>
       </li>
     </ul>
 </div>

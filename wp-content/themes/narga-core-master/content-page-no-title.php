@@ -29,14 +29,14 @@
         <div class="row mt2em">
           <div class="large-6 column">
             <ul class="large-block-grid-2">
-              <li><h4 class="text-right">App Developers and Publishers</h4></li>
-              <li><p class="">Leverage and join our network, recognize immediate revenue. </p><a class="button small" href="<?php bloginfo('url') ?>/app-monetization-platform">Read more</a></li>
+              <li><h4 class="text-right"><p><?php the_field('cta1:_title', 'option'); ?></p></h4></li>
+              <li><p class=""><?php the_field('cta1:_content', 'option'); ?></p><a class="button small" href="<?php the_field('cta1:_url', 'option'); ?>"><?php the_field('cta1:_link_text', 'option'); ?></a></li>
             </ul>
           </div>
           <div class="large-6 column">
-            <ul class="large-block-grid-2">
-              <li><h4 class="text-right">Brand advertisers and marketers</h4></li>
-              <li><p class="">Deliver your campaigns to the world's fastest-growing smartphone population. </p><a class="button small" href="<?php bloginfo('url') ?>/services">Read more</a></li>
+                        <ul class="large-block-grid-2">
+              <li><h4 class="text-right"><p><?php the_field('cta2:_title', 'option'); ?></p></h4></li>
+              <li><p class=""><?php the_field('cta2:_content', 'option'); ?></p><a class="button small" href="<?php the_field('cta2:_url', 'option'); ?>"><?php the_field('cta2:_link_text', 'option'); ?></a></li>
             </ul>
           </div>
           <hr>

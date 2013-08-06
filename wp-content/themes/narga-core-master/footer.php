@@ -13,7 +13,7 @@
 
 <!-- End row for main content area -->
             </section>      
-        </div>		
+        </div>    
 
         <!-- Footer area -->
         <footer class="large-12" role="contentinfo">
@@ -30,42 +30,34 @@
                 <div class="large-11 large-centered text-center columns" style="">
                   <div class="large-4 pt1em column short-desc">
                     <h4 class="white subheader">
-                      AdsYolo
+<?php the_field('company_name', 'option'); ?>
                     </h4>
                     <p class="fs07em greyd" style="color: #ddd">
-                      AdsYolo is a New York and Beijing-based mobile and full-service marketing agency, focused on influencing consumers in China via its leading in-app advertising network.
+                      <?php the_field('company_summary', 'option'); ?>
                     </p>
                   </div>
                   <div class="large-8 column content-info pb1em">
                     <div class="row">
                       <div class="large-4 pt1em column pb1em bl1px" style="">
-                        <h5 class="greyd white fw100">New York</h5>
+                        <h5 class="greyd white fw100"><?php the_field('first_location_name', 'option'); ?></h5>
                         <p class="address white fs07em" ref="address" style="opacity:.8">
-                          175 Varick Street, 5th FL.<br>
-                          New York, NY 10014<br>
-                          United States <br>
-                          <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
+<?php the_field('first_location_address', 'option'); ?>
                         </p>
-                        <p class="phone-number fs07em fs14em white" style="opacity:.8">(888) 806-9656</p>
+                        <p class="phone-number fs07em fs14em white" style="opacity:.8"><?php the_field('first_location_phone', 'option'); ?></p>
                       </div>
                       <div class="large-4 pt1em column pb1em bl1px" style="">
-                        <h5 class="greyd white fw100">China</h5>
+                        <h5 class="greyd white fw100"><?php the_field('second_location_name', 'option'); ?></h5>
                         <p class="address white fs07em" ref="address" style="opacity:.8">
-                          Haidian District Karma Cubic Court Street Building 2-312 <br>
-                          Beijing, China <br>
-                          <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
+<?php the_field('second_location_address', 'option'); ?>
                         </p>
-                        <p class="phone-number fs07em fs14em white" style="opacity:.8">+400-6088-215</p>
+                        <p class="phone-number fs07em fs14em white" style="opacity:.8"><?php the_field('second_location_phone', 'option'); ?></p>
                       </div>
                       <div class="large-4 pt1em column pb1em bl1px" style="">
-                        <h5 class="greyd white fw100">London</h5>
+                        <h5 class="greyd white fw100"><?php the_field('third_location_name', 'option'); ?></h5>
                         <p class="address white fs07em" ref="address" style="opacity:.8">
-                          49 Southwark ST <br> 
-                          London, SE1 1RU <br>
-                          United Kingdom <br>
-                          <a href="mailto:sales@adsyolo.com">sales@adsyolo.com</a> 
+<?php the_field('third_location_address', 'option'); ?>
                         </p>
-                        <p class="phone-number fs07em fs14em white" style="opacity:.8">+44 020-8144-3164</p>
+                        <p class="phone-number fs07em fs14em white" style="opacity:.8"><?php the_field('third_location_phone', 'option'); ?></p>
                       </div>
                     </div>
                   </div>
@@ -79,14 +71,14 @@
                           <li>
                             <ul class="inline-list" style="margin-bottom:.2em;  opacity: .4">
                               <li>
-                                  <a href="<?php bloginfo('url') ?>" title="AdsYolo" rel="company"><img style="max-width: 46px;" class='d-inline-f' src="<?php bloginfo('url')?>/wp-content/uploads/2013/06/adsyolo-logo-ay.png" alt="AdsYolo Short Logo"></a>
+                                  <a href="<?php bloginfo('url') ?>" title="AdsYolo" rel="company"><img style="max-width: 46px;" class='d-inline-f' src="<?php the_field('small_ay_logo', 'option');?>" alt="AdsYolo Short Logo"></a>
                               </li>
                               <?php dynamic_sidebar("Footer"); ?>
                             </ul>
                           </li>
                           <li>
                             <ul class="inline-list" style="  opacity: .3">
-                              <li class="white fs08em">© 2013 AdsYolo, Inc. All rights reserved.</li>
+                              <li class="white fs08em"><?php the_field('copyright', 'option');?></li>
                             </ul>
                           </li>
                         </ul>
@@ -137,5 +129,3 @@
             <?php wp_footer(); ?>
         </body>
     </html>
-
-

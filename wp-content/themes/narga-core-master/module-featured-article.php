@@ -1,9 +1,8 @@
 <div class="panel">
-  <img class="image-wrap" src="<?php bloginfo('url') ?>/wp-content/uploads/2013/06/china-small.jpg" alt="">
-  <label class="pt1em success">Featured Article</label>
-  <h4>Success Story: Gaming App</h4>
+  <img class="image-wrap" src="<?php the_field('featured_box_section_image', 'option'); ?>">
+  <label class="pt1em success"><?php the_field('featured_box_section_preface', 'option'); ?></label>
+  <h4><?php the_field('featured_box_section_title', 'option'); ?></h4>
   <p>
-  CRTs 300%, revenues 1600%. Additive Games wins with AdsYolo's mobile app network.
-  <a href="<?php bloginfo('url') ?>/wp-content/uploads/2013/07/AdsYolo-Addiktive-Success-Story.pdf">Read More >></a>
+  <?php the_field('featured_box_section_content', 'option'); ?>
   </p>
 </div>

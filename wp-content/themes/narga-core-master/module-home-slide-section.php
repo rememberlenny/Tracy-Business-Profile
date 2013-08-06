@@ -8,13 +8,10 @@
                 <div class="row">
                   <div class="column">
                     <div class="large-5 text-right column ">
-                  <h1 style="margin-top: .6em;">  AdsYolo</h1>
+                  <h1 style="margin-top: .6em;"> <?php the_field('hero_text:_left', 'option'); ?></h1>
                     </div>
                     <div class="large-7 text-left column " style="border-left: 5px solid rgb(255, 255, 255)">
-                      <h2 class="d-inline-f">Speaks to China <br>
-                      对话中国
-                      </h2>
-                      <a style="margin-bottom: 1em;" href="<?php bloginfo('url'); ?>/advertisers" class="d-inline-fd button medium bold">Learn more</a>
+                      <?php the_field('hero_text:_right', 'option'); ?>
                     </div>
                   </div>
                 </div>
